@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/josephhilby/consultancy_be">
-    <img src="lib/assets/consultancy.jpeg" alt="Logo" width="400" height="200">
+    <img src="lib/assets/consultancy.jpeg" alt="Logo" width="400" height="400">
   </a>
 
 <h1 align="center">consultancy_be</h1>
