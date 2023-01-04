@@ -11,8 +11,8 @@ RSpec.describe NwsFacade do
     describe "#escandia_alerts" do
       it "returns escandia alerts objects", :vcr do
 
-        expect(NwsFacade.escandia_alerts).to be_a Array
-        expect(NwsFacade.escandia_alerts.first).to be_a NwsAlert
+        expect(NwsFacade.escambia_alerts).to be_a Array
+        expect(NwsFacade.escambia_alerts.first).to be_a NwsAlert
       end
     end
   end

@@ -5,7 +5,7 @@ module Api
     class AlertsController < ApplicationController
       def index
         @alerts = NwsFacade.escambia_alerts
-        render json: @alerts
+        render json: NwsAlertSerializer.new(@alerts)
       end
     end
   end
