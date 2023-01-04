@@ -20,8 +20,7 @@ class NwsAlert
     @severity = data[:severity]
     @event = data[:event]
     @description = data[:description]
-    @instructions = data[:instructions]
+    @instructions = data[:instruction]
     @response = data[:response]
   end
 end
-#"2023-01-03T20:19:00-06:00"

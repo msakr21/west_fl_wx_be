@@ -13,7 +13,7 @@ RSpec.describe NwsAlert do
       severity: 'Minor',
       event: 'High Surf Advisory',
       description: "* WHAT...For the High Surf Advisory, large breaking waves of 4\nto 6 feet in the surf zone. For the High Rip Current Risk,\ndangerous rip currents.\n\n* WHERE...In Alabama, Mobile Coastal and Baldwin Coastal\nCounties. In Florida, Escambia Coastal, Santa Rosa Coastal and\nOkaloosa Coastal Counties.\n\n* WHEN...For the High Surf Advisory, until 6 PM CST Wednesday.\nFor the High Rip Current Risk, through late Wednesday night.\n\n* IMPACTS...Dangerous swimming and surfing conditions and\nlocalized beach erosion. Rip currents can sweep even the best\nswimmers away from shore into deeper water.",
-      instructions: "Inexperienced swimmers should remain out of the water due to\ndangerous surf conditions.\n\nSwim near a lifeguard. If caught in a rip current, relax and\nfloat. Don't swim against the current. If able, swim in a\ndirection following the shoreline. If unable to escape, face the\nshore and call or wave for help.",
+      instruction: "Inexperienced swimmers should remain out of the water due to\ndangerous surf conditions.\n\nSwim near a lifeguard. If caught in a rip current, relax and\nfloat. Don't swim against the current. If able, swim in a\ndirection following the shoreline. If unable to escape, face the\nshore and call or wave for help.",
       response: 'Avoid'
     }
     @nws_alert = NwsAlert.new(@data)
