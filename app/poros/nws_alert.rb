@@ -13,8 +13,8 @@ class NwsAlert
   def initialize(data)
     @id = data[:id]
     @areas_affected = data[:areaDesc]
-    @effective_at = data[:effective]
-    @ends_at = data[:ends]
+    @effective_at = Time.parse(data[:effective]).strftime("%A at%l:%M%P, %B%e, %Y").lstrip
+    @ends_at = Time.parse(data[:ends]).strftime("%A at%l:%M%P, %B%e, %Y").lstrip
     @status = data[:status]
     @severity = data[:severity]
     @event = data[:event]

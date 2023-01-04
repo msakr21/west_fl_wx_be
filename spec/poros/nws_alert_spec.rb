@@ -27,8 +27,8 @@ RSpec.describe NwsAlert do
 
     expect(@nws_alert.id).to eq("https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.86615ea6c56c2dc6d1ecfcb695f26d8802eda75d.001.1")
     expect(@nws_alert.areas_affected).to eq("Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal")
-    expect(@nws_alert.effective_at).to eq("2023-01-03T13:09:00-06:00")
-    expect(@nws_alert.ends_at).to eq("2023-01-04T18:00:00-06:00")
+    expect(@nws_alert.effective_at).to eq("Tuesday at 1:09pm, January 3, 2023")
+    expect(@nws_alert.ends_at).to eq("Wednesday at 6:00pm, January 4, 2023")
     expect(@nws_alert.status).to eq("Actual")
     expect(@nws_alert.severity).to eq("Minor")
     expect(@nws_alert.event).to eq("High Surf Advisory")
