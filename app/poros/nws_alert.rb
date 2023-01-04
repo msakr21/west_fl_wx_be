@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 
 class NwsAlert
   attr_reader :id,
@@ -15,8 +14,8 @@ class NwsAlert
   def initialize(data)
     @id = data[:id]
     @areas_affected = data[:areaDesc]
-    @effective_at = Time.parse(data[:effective]).strftime('%A at%l:%M%P, %B%e, %Y').lstrip
-    @ends_at = Time.parse(data[:ends]).strftime('%A at%l:%M%P, %B%e, %Y').lstrip
+    @effective_at = Time.parse(data[:effective]).strftime('%A at%l:%M%P, %B%e, %Y')
+    @ends_at = Time.parse(data[:ends]).strftime('%A at%l:%M%P, %B%e, %Y')
     @status = data[:status]
     @severity = data[:severity]
     @event = data[:event]
@@ -25,3 +24,4 @@ class NwsAlert
     @response = data[:response]
   end
 end
+#"2023-01-03T20:19:00-06:00"
