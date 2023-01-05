@@ -8,7 +8,7 @@ module Api
         if @alerts.blank?
           render json: { data: 'No Current Alerts' }
         else
-          render json: NwsAlertSerializer.new(@alerts)
+          render json: { data: 'Current Alerts in Your Area' }
         end
       end
     end

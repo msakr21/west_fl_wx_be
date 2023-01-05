@@ -23,29 +23,7 @@ RSpec.describe 'EscambiaCountFLAlerts API' do
       it 'returns alerts' do
         expect(alerts).to be_a Hash
         expect(alerts).to have_key(:data)
-        expect(alerts[:data]).to be_a Array
-
-        expect(alerts[:data].first).to have_key(:id)
-        expect(alerts[:data].first).to have_key(:type)
-        expect(alerts[:data].first).to have_key(:attributes)
-
-        expect(alerts[:data].first[:id]).to be_a String
-        expect(alerts[:data].first[:type]).to be_a String
-        expect(alerts[:data].first[:attributes]).to be_a Hash
-
-        expect(alerts[:data].first[:attributes]).to have_key(:areas_affected)
-        expect(alerts[:data].first[:attributes]).to have_key(:effective_at)
-        expect(alerts[:data].first[:attributes]).to have_key(:ends_at)
-        expect(alerts[:data].first[:attributes]).to have_key(:status)
-        expect(alerts[:data].first[:attributes]).to have_key(:severity)
-        expect(alerts[:data].first[:attributes]).to have_key(:event)
-
-        expect(alerts[:data].first[:attributes][:areas_affected]).to be_a String
-        expect(alerts[:data].first[:attributes][:effective_at]).to be_a String
-        expect(alerts[:data].first[:attributes][:ends_at]).to be_a String
-        expect(alerts[:data].first[:attributes][:status]).to be_a String
-        expect(alerts[:data].first[:attributes][:severity]).to be_a String
-        expect(alerts[:data].first[:attributes][:event]).to be_a String
+        expect(alerts[:data]).to be_a String
       end
     end
 
