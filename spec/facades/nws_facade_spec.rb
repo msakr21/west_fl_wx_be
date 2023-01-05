@@ -31,6 +31,18 @@ RSpec.describe NwsFacade do
           expect(NwsFacade.escambia_alerts.first.response).to eq('Avoid')
         end
       end
+
+      describe 'When there are no alerts' do
+        it 'returns a blank array' do
+          json_response = File.read('spec/fixtures/DO_NOT_DELETE/services/no_current_alerts.json')
+          stub_request(:get, 'https://api.weather.gov/alerts?zone=FLZ202&status=actual&severity=Severe,Extreme').to_return(
+            status: 200, body: json_response
+          )
+
+          expect(NwsFacade.escambia_alerts).to be_a Array
+          expect(NwsFacade.escambia_alerts).to eq([])
+        end
+      end
     end
   end
 end
