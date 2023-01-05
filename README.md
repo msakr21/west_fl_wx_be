@@ -61,9 +61,8 @@ West FL WX is a Rails web application and e-mail service.
 
 MVP
 * [ ] API call to NWS API for Weather Alerts
-* [ ] API call to Twitter for #BeReadyEscambia and #FDOT
+* [ ] API call to Twitter for #BeReadyEscambia and #fl511_panhandl
 * [ ] Weather Alert endpoint
-* [ ] Email endpoint
 
 Stretch Goals
 * [ ] Google Maps call for traffic
