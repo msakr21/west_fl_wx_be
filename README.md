@@ -121,7 +121,7 @@ TBD (heroku link here)
     </td>
     <td>
       <a href="https://github.com/msakr21">GitHub</a><br>
-      <a href="www.linkedin.com/in/mostafa-sakr-4bb722250">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/mostafa-sakr-4bb722250">LinkedIn</a>
     </td>
   </tr>
 </table>
