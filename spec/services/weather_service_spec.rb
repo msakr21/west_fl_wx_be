@@ -26,7 +26,7 @@ RSpec.describe WeatherService do
 
           expect(WeatherService.escambia_county_alerts).to be_a Hash
           expect(WeatherService.escambia_county_alerts).to have_key(:features)
-          expect(WeatherService.escambia_county_alerts[:features]).to be_a Array
+          expect(WeatherService.escambia_county_alerts[:features]).to be_an Array
           expect(WeatherService.escambia_county_alerts[:features].first).to have_key(:properties)
           expect(WeatherService.escambia_county_alerts[:features].first[:properties]).to have_key(:areaDesc)
           expect(WeatherService.escambia_county_alerts[:features].first[:properties]).to have_key(:effective)
@@ -49,7 +49,7 @@ RSpec.describe WeatherService do
       end
 
       describe 'When there are no alert records' do
-        it 'it returns a hash when an empty features array' do
+        it 'returns a hash when an empty features array' do
           json_response = File.read('spec/fixtures/DO_NOT_DELETE/services/no_current_alerts.json')
           stub_request(:get, 'https://api.weather.gov/alerts?zone=FLZ202&status=actual&severity=Severe,Extreme').to_return(
             status: 200, body: json_response
@@ -57,7 +57,7 @@ RSpec.describe WeatherService do
 
           expect(WeatherService.escambia_county_alerts).to be_a Hash
           expect(WeatherService.escambia_county_alerts).to have_key(:features)
-          expect(WeatherService.escambia_county_alerts[:features]).to be_a Array
+          expect(WeatherService.escambia_county_alerts[:features]).to be_an Array
           expect(WeatherService.escambia_county_alerts[:features]).to eq([])
         end
       end

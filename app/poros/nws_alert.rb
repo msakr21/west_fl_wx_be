@@ -16,13 +16,11 @@ class NwsAlert
     @id = data[:id]
     @areas_affected = data[:areaDesc]
     @effective_at = Time.parse(data[:effective]).strftime('%A at%l:%M%P, %B%e, %Y')
-
     @ends_at = if !data[:ends].nil?
                  Time.parse(data[:ends]).strftime('%A at%l:%M%P, %B%e, %Y')
                else
                  'No Forecast End Time'
                end
-
     @status = data[:status]
     @severity = data[:severity]
     @event = data[:event]
