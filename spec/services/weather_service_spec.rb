@@ -17,11 +17,12 @@ RSpec.describe WeatherService do
     end
 
     describe '#escambia_county_alerts' do
-      describe "when alert records exist" do
+      describe 'when alert records exist' do
         it 'displays weather alerts for escambia county' do
           json_response = File.read('spec/fixtures/DO_NOT_DELETE/services/alerts_with_moderate_filter.json')
-          stub_request(:get, "https://api.weather.gov/alerts?zone=FLZ202&status=actual&severity=Severe,Extreme").to_return(status: 200, body: json_response)
-
+          stub_request(:get, 'https://api.weather.gov/alerts?zone=FLZ202&status=actual&severity=Severe,Extreme').to_return(
+            status: 200, body: json_response
+          )
 
           expect(WeatherService.escambia_county_alerts).to be_a Hash
           expect(WeatherService.escambia_county_alerts).to have_key(:features)
@@ -47,10 +48,12 @@ RSpec.describe WeatherService do
         end
       end
 
-      describe "When there are no alert records" do
-        it "it returns a hash when an empty features array" do
+      describe 'When there are no alert records' do
+        it 'it returns a hash when an empty features array' do
           json_response = File.read('spec/fixtures/DO_NOT_DELETE/services/no_current_alerts.json')
-          stub_request(:get, "https://api.weather.gov/alerts?zone=FLZ202&status=actual&severity=Severe,Extreme").to_return(status: 200, body: json_response)
+          stub_request(:get, 'https://api.weather.gov/alerts?zone=FLZ202&status=actual&severity=Severe,Extreme').to_return(
+            status: 200, body: json_response
+          )
 
           expect(WeatherService.escambia_county_alerts).to be_a Hash
           expect(WeatherService.escambia_county_alerts).to have_key(:features)

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 class NwsAlert
   attr_reader :id,
@@ -16,11 +17,11 @@ class NwsAlert
     @areas_affected = data[:areaDesc]
     @effective_at = Time.parse(data[:effective]).strftime('%A at%l:%M%P, %B%e, %Y')
 
-    if !data[:ends].nil?
-      @ends_at = Time.parse(data[:ends]).strftime('%A at%l:%M%P, %B%e, %Y')
-    else
-      @ends_at = "No Forecast End Time"
-    end
+    @ends_at = if !data[:ends].nil?
+                 Time.parse(data[:ends]).strftime('%A at%l:%M%P, %B%e, %Y')
+               else
+                 'No Forecast End Time'
+               end
 
     @status = data[:status]
     @severity = data[:severity]
