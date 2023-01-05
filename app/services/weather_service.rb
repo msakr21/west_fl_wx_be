@@ -6,7 +6,8 @@ class WeatherService
   end
 
   def self.escambia_county_alerts
-    response = conn.get('alerts?zone=FLZ202&status=actual&severity= Moderate,Severe,Extreme')
+    response = conn.get('alerts?zone=FLZ202&status=actual&severity=Severe,Extreme')
+    # binding.pry
     JSON.parse(response.body, symbolize_names: true)
   end
 end
