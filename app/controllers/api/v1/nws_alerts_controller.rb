@@ -2,7 +2,7 @@
 
 module Api
   module V1
-    class AlertsController < ApplicationController
+    class NwsAlertsController < ApplicationController
       def index
         @alerts = NwsFacade.escambia_alerts
         if @alerts.blank?
