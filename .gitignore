@@ -26,3 +26,5 @@
 /config/application.yml
 
 coverage
+.vscode/settings.json
+.DS_Store
