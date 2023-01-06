@@ -11,6 +11,7 @@ RSpec.describe NwsFacade do
     describe '@fl511_alerts' do
       it 'returns escambia related tweets', :vcr do
         expect(TwitterFacade.fl511_alerts).to be_an Array
+        expect(TwitterFacade.fl511_alerts.count).to eq 3
         expect(TwitterFacade.fl511_alerts.first.created_at).to be_a String
         expect(TwitterFacade.fl511_alerts.first.created_at).to include('2023')
         expect(TwitterFacade.fl511_alerts.first.id).to be_a String
@@ -22,6 +23,7 @@ RSpec.describe NwsFacade do
     describe '@bereadyescambia_alerts' do
       it 'returns most recent tweets', :vcr do
         expect(TwitterFacade.bereadyescambia_alerts).to be_an Array
+        expect(TwitterFacade.bereadyescambia_alerts.count).to eq 3
         expect(TwitterFacade.bereadyescambia_alerts.first.created_at).to be_a String
         expect(TwitterFacade.bereadyescambia_alerts.first.created_at).to include('2023')
         expect(TwitterFacade.bereadyescambia_alerts.first.id).to be_a String
