@@ -1,0 +1,668 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/2/tweets/search/recent?max_results=20&query=from:fl511_panhandl%20Escambia&tweet.fields=created_at
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Authorization
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 06 Jan 2023 21:25:19 UTC
+      Perf:
+      - '7626143928'
+      Server:
+      - tsa_p
+      Set-Cookie:
+      - guest_id=v1%3A167304031954554131; Max-Age=63072000; Expires=Sun, 05 Jan 2025
+        21:25:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167304031954554131; Max-Age=63072000; Expires=Sun, 05 Jan
+        2025 21:25:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167304031954554131; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_IG6She6xcuCn5hl3OkI2zg=="; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      Api-Version:
+      - '2.60'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache, no-store, max-age=0
+      Content-Length:
+      - '1108'
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Transaction-Id:
+      - 165b8b0f5cd91dfe
+      X-Xss-Protection:
+      - '0'
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Reset:
+      - '1673041036'
+      Content-Disposition:
+      - attachment; filename=json.json
+      X-Content-Type-Options:
+      - nosniff
+      X-Rate-Limit-Remaining:
+      - '448'
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Response-Time:
+      - '99'
+      X-Connection-Hash:
+      - 9aee8e423f9bed9bcf9196df9f7eb4dace305dd4becd36e83c19cef9c7308978
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"id":"1611272894998548483","edit_history_tweet_ids":["1611272894998548483"],"created_at":"2023-01-06T08:06:08.000Z","text":"Cleared:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM."},{"id":"1611257313595359233","edit_history_tweet_ids":["1611257313595359233"],"created_at":"2023-01-06T07:04:13.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM. https://t.co/AhcOlE3GSa"},{"id":"1611240971492274178","edit_history_tweet_ids":["1611240971492274178"],"created_at":"2023-01-06T05:59:17.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:58 AM. https://t.co/AhcOlE3GSa"},{"id":"1611228494780043264","edit_history_tweet_ids":["1611228494780043264"],"created_at":"2023-01-06T05:09:42.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:09 AM. https://t.co/AhcOlE3GSa"},{"id":"1611213198988042247","edit_history_tweet_ids":["1611213198988042247"],"created_at":"2023-01-06T04:08:56.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 11:08 PM. https://t.co/AhcOlE3GSa"},{"id":"1611203884466466816","edit_history_tweet_ids":["1611203884466466816"],"created_at":"2023-01-06T03:31:55.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 10:31 PM. https://t.co/AhcOlE3GSa"},{"id":"1611186994960531456","edit_history_tweet_ids":["1611186994960531456"],"created_at":"2023-01-06T02:24:48.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 09:24 PM. https://t.co/AhcOlE3GSa"},{"id":"1611082421885341697","edit_history_tweet_ids":["1611082421885341697"],"created_at":"2023-01-05T19:29:16.000Z","text":"Crash
+        in Escambia County on I-10 East, at Exit 13 (SR-291/Davis Hwy). Center lane
+        blocked. Last updated at 02:28 PM. https://t.co/FfbqxINfls"},{"id":"1610998141289107458","edit_history_tweet_ids":["1610998141289107458"],"created_at":"2023-01-05T13:54:22.000Z","text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM."},{"id":"1610997629898625024","edit_history_tweet_ids":["1610997629898625024"],"created_at":"2023-01-05T13:52:20.000Z","text":"Updated:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM. https://t.co/jTxlufj3ER"},{"id":"1610997371999227904","edit_history_tweet_ids":["1610997371999227904"],"created_at":"2023-01-05T13:51:19.000Z","text":"Object
+        on roadway in Escambia County on I-10 East, at MM 15. Left lane blocked. Last
+        updated at 08:50 AM. https://t.co/jTxlufj3ER"},{"id":"1610481516219629569","edit_history_tweet_ids":["1610481516219629569"],"created_at":"2023-01-04T03:41:29.000Z","text":"Cleared:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM."},{"id":"1610479468522655744","edit_history_tweet_ids":["1610479468522655744"],"created_at":"2023-01-04T03:33:21.000Z","text":"Updated:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM. https://t.co/2Aus9tAjlx"},{"id":"1609966622055489537","edit_history_tweet_ids":["1609966622055489537"],"created_at":"2023-01-02T17:35:29.000Z","text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp.
+        Right lane blocked. Last updated at 12:06 PM."},{"id":"1609959588580970497","edit_history_tweet_ids":["1609959588580970497"],"created_at":"2023-01-02T17:07:32.000Z","text":"Object
+        on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp. Right
+        lane blocked. Last updated at 12:06 PM. https://t.co/erTp4S9fwH"},{"id":"1609929261959483393","edit_history_tweet_ids":["1609929261959483393"],"created_at":"2023-01-02T15:07:01.000Z","text":"Cleared:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM."},{"id":"1609916911567142912","edit_history_tweet_ids":["1609916911567142912"],"created_at":"2023-01-02T14:17:57.000Z","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM. https://t.co/RhqvnmgfSq"},{"id":"1609916898589945856","edit_history_tweet_ids":["1609916898589945856"],"created_at":"2023-01-02T14:17:54.000Z","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:14 AM. https://t.co/RhqvnmgfSq"},{"id":"1609916885826686977","edit_history_tweet_ids":["1609916885826686977"],"created_at":"2023-01-02T14:17:51.000Z","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:10 AM. https://t.co/RhqvnmgfSq"},{"id":"1609296264189087744","edit_history_tweet_ids":["1609296264189087744"],"created_at":"2022-12-31T21:11:43.000Z","text":"Cleared:
+        Object on roadway in Escambia County on I-10 West, at Exit 7 (SR-297/Pine
+        Forest Rd). Right lane blocked. Last updated at 03:50 PM."}],"meta":{"newest_id":"1611272894998548483","oldest_id":"1609296264189087744","result_count":20,"next_token":"b26v89c19zqg8o3fqk13cxkfrq544kadly8ypmmuyaut9"}}'
+  recorded_at: Fri, 06 Jan 2023 21:25:19 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/2/tweets/search/recent?max_results=20&query=from:fl511_panhandl%20Escambia&tweet.fields=created_at
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Authorization
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 06 Jan 2023 21:25:19 UTC
+      Perf:
+      - '7626143928'
+      Server:
+      - tsa_p
+      Set-Cookie:
+      - guest_id=v1%3A167304031986897978; Max-Age=63072000; Expires=Sun, 05 Jan 2025
+        21:25:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167304031986897978; Max-Age=63072000; Expires=Sun, 05 Jan
+        2025 21:25:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167304031986897978; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_uMvdlLaUInMUH07ZpB857g=="; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      Api-Version:
+      - '2.60'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache, no-store, max-age=0
+      Content-Length:
+      - '1110'
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Transaction-Id:
+      - 8ad143c5f7a48145
+      X-Xss-Protection:
+      - '0'
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Reset:
+      - '1673041036'
+      Content-Disposition:
+      - attachment; filename=json.json
+      X-Content-Type-Options:
+      - nosniff
+      X-Rate-Limit-Remaining:
+      - '447'
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Response-Time:
+      - '123'
+      X-Connection-Hash:
+      - db93292cf456f2050f34580f4ccb317e9d9486e54d1a2f7cd8dfeb87b80eca53
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"created_at":"2023-01-06T08:06:08.000Z","id":"1611272894998548483","text":"Cleared:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM.","edit_history_tweet_ids":["1611272894998548483"]},{"created_at":"2023-01-06T07:04:13.000Z","id":"1611257313595359233","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611257313595359233"]},{"created_at":"2023-01-06T05:59:17.000Z","id":"1611240971492274178","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:58 AM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611240971492274178"]},{"created_at":"2023-01-06T05:09:42.000Z","id":"1611228494780043264","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:09 AM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611228494780043264"]},{"created_at":"2023-01-06T04:08:56.000Z","id":"1611213198988042247","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 11:08 PM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611213198988042247"]},{"created_at":"2023-01-06T03:31:55.000Z","id":"1611203884466466816","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 10:31 PM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611203884466466816"]},{"created_at":"2023-01-06T02:24:48.000Z","id":"1611186994960531456","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 09:24 PM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611186994960531456"]},{"created_at":"2023-01-05T19:29:16.000Z","id":"1611082421885341697","text":"Crash
+        in Escambia County on I-10 East, at Exit 13 (SR-291/Davis Hwy). Center lane
+        blocked. Last updated at 02:28 PM. https://t.co/FfbqxINfls","edit_history_tweet_ids":["1611082421885341697"]},{"created_at":"2023-01-05T13:54:22.000Z","id":"1610998141289107458","text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM.","edit_history_tweet_ids":["1610998141289107458"]},{"created_at":"2023-01-05T13:52:20.000Z","id":"1610997629898625024","text":"Updated:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM. https://t.co/jTxlufj3ER","edit_history_tweet_ids":["1610997629898625024"]},{"created_at":"2023-01-05T13:51:19.000Z","id":"1610997371999227904","text":"Object
+        on roadway in Escambia County on I-10 East, at MM 15. Left lane blocked. Last
+        updated at 08:50 AM. https://t.co/jTxlufj3ER","edit_history_tweet_ids":["1610997371999227904"]},{"created_at":"2023-01-04T03:41:29.000Z","id":"1610481516219629569","text":"Cleared:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM.","edit_history_tweet_ids":["1610481516219629569"]},{"created_at":"2023-01-04T03:33:21.000Z","id":"1610479468522655744","text":"Updated:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM. https://t.co/2Aus9tAjlx","edit_history_tweet_ids":["1610479468522655744"]},{"created_at":"2023-01-02T17:35:29.000Z","id":"1609966622055489537","text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp.
+        Right lane blocked. Last updated at 12:06 PM.","edit_history_tweet_ids":["1609966622055489537"]},{"created_at":"2023-01-02T17:07:32.000Z","id":"1609959588580970497","text":"Object
+        on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp. Right
+        lane blocked. Last updated at 12:06 PM. https://t.co/erTp4S9fwH","edit_history_tweet_ids":["1609959588580970497"]},{"created_at":"2023-01-02T15:07:01.000Z","id":"1609929261959483393","text":"Cleared:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM.","edit_history_tweet_ids":["1609929261959483393"]},{"created_at":"2023-01-02T14:17:57.000Z","id":"1609916911567142912","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM. https://t.co/RhqvnmgfSq","edit_history_tweet_ids":["1609916911567142912"]},{"created_at":"2023-01-02T14:17:54.000Z","id":"1609916898589945856","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:14 AM. https://t.co/RhqvnmgfSq","edit_history_tweet_ids":["1609916898589945856"]},{"created_at":"2023-01-02T14:17:51.000Z","id":"1609916885826686977","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:10 AM. https://t.co/RhqvnmgfSq","edit_history_tweet_ids":["1609916885826686977"]},{"created_at":"2022-12-31T21:11:43.000Z","id":"1609296264189087744","text":"Cleared:
+        Object on roadway in Escambia County on I-10 West, at Exit 7 (SR-297/Pine
+        Forest Rd). Right lane blocked. Last updated at 03:50 PM.","edit_history_tweet_ids":["1609296264189087744"]}],"meta":{"newest_id":"1611272894998548483","oldest_id":"1609296264189087744","result_count":20,"next_token":"b26v89c19zqg8o3fqk13cxkfrq544kadly8ypmmuyaut9"}}'
+  recorded_at: Fri, 06 Jan 2023 21:25:19 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/2/tweets/search/recent?max_results=20&query=from:fl511_panhandl%20Escambia&tweet.fields=created_at
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Authorization
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 06 Jan 2023 21:25:20 UTC
+      Perf:
+      - '7626143928'
+      Server:
+      - tsa_p
+      Set-Cookie:
+      - guest_id=v1%3A167304032020909744; Max-Age=63072000; Expires=Sun, 05 Jan 2025
+        21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167304032020909744; Max-Age=63072000; Expires=Sun, 05 Jan
+        2025 21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167304032020909744; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_T2RGJ7cuAI/VyIyvUdKE/w=="; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      Api-Version:
+      - '2.60'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache, no-store, max-age=0
+      Content-Length:
+      - '1104'
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Transaction-Id:
+      - e725591d9b527804
+      X-Xss-Protection:
+      - '0'
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Reset:
+      - '1673041036'
+      Content-Disposition:
+      - attachment; filename=json.json
+      X-Content-Type-Options:
+      - nosniff
+      X-Rate-Limit-Remaining:
+      - '446'
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Response-Time:
+      - '104'
+      X-Connection-Hash:
+      - f12a02fc727152d310f7d78f5815452c1fb6eb831a569a30c5967eb6138604a9
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"id":"1611272894998548483","edit_history_tweet_ids":["1611272894998548483"],"text":"Cleared:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM.","created_at":"2023-01-06T08:06:08.000Z"},{"id":"1611257313595359233","edit_history_tweet_ids":["1611257313595359233"],"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM. https://t.co/AhcOlE3GSa","created_at":"2023-01-06T07:04:13.000Z"},{"id":"1611240971492274178","edit_history_tweet_ids":["1611240971492274178"],"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:58 AM. https://t.co/AhcOlE3GSa","created_at":"2023-01-06T05:59:17.000Z"},{"id":"1611228494780043264","edit_history_tweet_ids":["1611228494780043264"],"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:09 AM. https://t.co/AhcOlE3GSa","created_at":"2023-01-06T05:09:42.000Z"},{"id":"1611213198988042247","edit_history_tweet_ids":["1611213198988042247"],"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 11:08 PM. https://t.co/AhcOlE3GSa","created_at":"2023-01-06T04:08:56.000Z"},{"id":"1611203884466466816","edit_history_tweet_ids":["1611203884466466816"],"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 10:31 PM. https://t.co/AhcOlE3GSa","created_at":"2023-01-06T03:31:55.000Z"},{"id":"1611186994960531456","edit_history_tweet_ids":["1611186994960531456"],"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 09:24 PM. https://t.co/AhcOlE3GSa","created_at":"2023-01-06T02:24:48.000Z"},{"id":"1611082421885341697","edit_history_tweet_ids":["1611082421885341697"],"text":"Crash
+        in Escambia County on I-10 East, at Exit 13 (SR-291/Davis Hwy). Center lane
+        blocked. Last updated at 02:28 PM. https://t.co/FfbqxINfls","created_at":"2023-01-05T19:29:16.000Z"},{"id":"1610998141289107458","edit_history_tweet_ids":["1610998141289107458"],"text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM.","created_at":"2023-01-05T13:54:22.000Z"},{"id":"1610997629898625024","edit_history_tweet_ids":["1610997629898625024"],"text":"Updated:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM. https://t.co/jTxlufj3ER","created_at":"2023-01-05T13:52:20.000Z"},{"id":"1610997371999227904","edit_history_tweet_ids":["1610997371999227904"],"text":"Object
+        on roadway in Escambia County on I-10 East, at MM 15. Left lane blocked. Last
+        updated at 08:50 AM. https://t.co/jTxlufj3ER","created_at":"2023-01-05T13:51:19.000Z"},{"id":"1610481516219629569","edit_history_tweet_ids":["1610481516219629569"],"text":"Cleared:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM.","created_at":"2023-01-04T03:41:29.000Z"},{"id":"1610479468522655744","edit_history_tweet_ids":["1610479468522655744"],"text":"Updated:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM. https://t.co/2Aus9tAjlx","created_at":"2023-01-04T03:33:21.000Z"},{"id":"1609966622055489537","edit_history_tweet_ids":["1609966622055489537"],"text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp.
+        Right lane blocked. Last updated at 12:06 PM.","created_at":"2023-01-02T17:35:29.000Z"},{"id":"1609959588580970497","edit_history_tweet_ids":["1609959588580970497"],"text":"Object
+        on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp. Right
+        lane blocked. Last updated at 12:06 PM. https://t.co/erTp4S9fwH","created_at":"2023-01-02T17:07:32.000Z"},{"id":"1609929261959483393","edit_history_tweet_ids":["1609929261959483393"],"text":"Cleared:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM.","created_at":"2023-01-02T15:07:01.000Z"},{"id":"1609916911567142912","edit_history_tweet_ids":["1609916911567142912"],"text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM. https://t.co/RhqvnmgfSq","created_at":"2023-01-02T14:17:57.000Z"},{"id":"1609916898589945856","edit_history_tweet_ids":["1609916898589945856"],"text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:14 AM. https://t.co/RhqvnmgfSq","created_at":"2023-01-02T14:17:54.000Z"},{"id":"1609916885826686977","edit_history_tweet_ids":["1609916885826686977"],"text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:10 AM. https://t.co/RhqvnmgfSq","created_at":"2023-01-02T14:17:51.000Z"},{"id":"1609296264189087744","edit_history_tweet_ids":["1609296264189087744"],"text":"Cleared:
+        Object on roadway in Escambia County on I-10 West, at Exit 7 (SR-297/Pine
+        Forest Rd). Right lane blocked. Last updated at 03:50 PM.","created_at":"2022-12-31T21:11:43.000Z"}],"meta":{"newest_id":"1611272894998548483","oldest_id":"1609296264189087744","result_count":20,"next_token":"b26v89c19zqg8o3fqk13cxkfrq544kadly8ypmmuyaut9"}}'
+  recorded_at: Fri, 06 Jan 2023 21:25:20 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/2/tweets/search/recent?max_results=20&query=from:fl511_panhandl%20Escambia&tweet.fields=created_at
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Authorization
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 06 Jan 2023 21:25:20 UTC
+      Perf:
+      - '7626143928'
+      Server:
+      - tsa_p
+      Set-Cookie:
+      - guest_id=v1%3A167304032050811052; Max-Age=63072000; Expires=Sun, 05 Jan 2025
+        21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167304032050811052; Max-Age=63072000; Expires=Sun, 05 Jan
+        2025 21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167304032050811052; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_HC5vCSylyXujl4nuYFeeuA=="; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      Api-Version:
+      - '2.60'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache, no-store, max-age=0
+      Content-Length:
+      - '1113'
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Transaction-Id:
+      - 5d4f3cfc6ccbd5d1
+      X-Xss-Protection:
+      - '0'
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Reset:
+      - '1673041036'
+      Content-Disposition:
+      - attachment; filename=json.json
+      X-Content-Type-Options:
+      - nosniff
+      X-Rate-Limit-Remaining:
+      - '445'
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Response-Time:
+      - '101'
+      X-Connection-Hash:
+      - a6de2d0593eeefd17df7674d221ce1ae651b3c0c4e3e9d6190a73f19762fd82c
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"text":"Cleared: Planned construction in Escambia County
+        on I-10 East, at MM 9. Left lane blocked. Last updated at 02:03 AM.","id":"1611272894998548483","created_at":"2023-01-06T08:06:08.000Z","edit_history_tweet_ids":["1611272894998548483"]},{"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM. https://t.co/AhcOlE3GSa","id":"1611257313595359233","created_at":"2023-01-06T07:04:13.000Z","edit_history_tweet_ids":["1611257313595359233"]},{"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:58 AM. https://t.co/AhcOlE3GSa","id":"1611240971492274178","created_at":"2023-01-06T05:59:17.000Z","edit_history_tweet_ids":["1611240971492274178"]},{"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:09 AM. https://t.co/AhcOlE3GSa","id":"1611228494780043264","created_at":"2023-01-06T05:09:42.000Z","edit_history_tweet_ids":["1611228494780043264"]},{"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 11:08 PM. https://t.co/AhcOlE3GSa","id":"1611213198988042247","created_at":"2023-01-06T04:08:56.000Z","edit_history_tweet_ids":["1611213198988042247"]},{"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 10:31 PM. https://t.co/AhcOlE3GSa","id":"1611203884466466816","created_at":"2023-01-06T03:31:55.000Z","edit_history_tweet_ids":["1611203884466466816"]},{"text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 09:24 PM. https://t.co/AhcOlE3GSa","id":"1611186994960531456","created_at":"2023-01-06T02:24:48.000Z","edit_history_tweet_ids":["1611186994960531456"]},{"text":"Crash
+        in Escambia County on I-10 East, at Exit 13 (SR-291/Davis Hwy). Center lane
+        blocked. Last updated at 02:28 PM. https://t.co/FfbqxINfls","id":"1611082421885341697","created_at":"2023-01-05T19:29:16.000Z","edit_history_tweet_ids":["1611082421885341697"]},{"text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM.","id":"1610998141289107458","created_at":"2023-01-05T13:54:22.000Z","edit_history_tweet_ids":["1610998141289107458"]},{"text":"Updated:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM. https://t.co/jTxlufj3ER","id":"1610997629898625024","created_at":"2023-01-05T13:52:20.000Z","edit_history_tweet_ids":["1610997629898625024"]},{"text":"Object
+        on roadway in Escambia County on I-10 East, at MM 15. Left lane blocked. Last
+        updated at 08:50 AM. https://t.co/jTxlufj3ER","id":"1610997371999227904","created_at":"2023-01-05T13:51:19.000Z","edit_history_tweet_ids":["1610997371999227904"]},{"text":"Cleared:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM.","id":"1610481516219629569","created_at":"2023-01-04T03:41:29.000Z","edit_history_tweet_ids":["1610481516219629569"]},{"text":"Updated:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM. https://t.co/2Aus9tAjlx","id":"1610479468522655744","created_at":"2023-01-04T03:33:21.000Z","edit_history_tweet_ids":["1610479468522655744"]},{"text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp.
+        Right lane blocked. Last updated at 12:06 PM.","id":"1609966622055489537","created_at":"2023-01-02T17:35:29.000Z","edit_history_tweet_ids":["1609966622055489537"]},{"text":"Object
+        on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp. Right
+        lane blocked. Last updated at 12:06 PM. https://t.co/erTp4S9fwH","id":"1609959588580970497","created_at":"2023-01-02T17:07:32.000Z","edit_history_tweet_ids":["1609959588580970497"]},{"text":"Cleared:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM.","id":"1609929261959483393","created_at":"2023-01-02T15:07:01.000Z","edit_history_tweet_ids":["1609929261959483393"]},{"text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM. https://t.co/RhqvnmgfSq","id":"1609916911567142912","created_at":"2023-01-02T14:17:57.000Z","edit_history_tweet_ids":["1609916911567142912"]},{"text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:14 AM. https://t.co/RhqvnmgfSq","id":"1609916898589945856","created_at":"2023-01-02T14:17:54.000Z","edit_history_tweet_ids":["1609916898589945856"]},{"text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:10 AM. https://t.co/RhqvnmgfSq","id":"1609916885826686977","created_at":"2023-01-02T14:17:51.000Z","edit_history_tweet_ids":["1609916885826686977"]},{"text":"Cleared:
+        Object on roadway in Escambia County on I-10 West, at Exit 7 (SR-297/Pine
+        Forest Rd). Right lane blocked. Last updated at 03:50 PM.","id":"1609296264189087744","created_at":"2022-12-31T21:11:43.000Z","edit_history_tweet_ids":["1609296264189087744"]}],"meta":{"newest_id":"1611272894998548483","oldest_id":"1609296264189087744","result_count":20,"next_token":"b26v89c19zqg8o3fqk13cxkfrq544kadly8ypmmuyaut9"}}'
+  recorded_at: Fri, 06 Jan 2023 21:25:20 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/2/tweets/search/recent?max_results=20&query=from:fl511_panhandl%20Escambia&tweet.fields=created_at
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Authorization
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 06 Jan 2023 21:25:20 UTC
+      Perf:
+      - '7626143928'
+      Server:
+      - tsa_p
+      Set-Cookie:
+      - guest_id=v1%3A167304032085039119; Max-Age=63072000; Expires=Sun, 05 Jan 2025
+        21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167304032085039119; Max-Age=63072000; Expires=Sun, 05 Jan
+        2025 21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167304032085039119; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_YXehJR1HlqBxjJOYmaALzQ=="; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      Api-Version:
+      - '2.60'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache, no-store, max-age=0
+      Content-Length:
+      - '1107'
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Transaction-Id:
+      - 4f0c19fa5990095a
+      X-Xss-Protection:
+      - '0'
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Reset:
+      - '1673041036'
+      Content-Disposition:
+      - attachment; filename=json.json
+      X-Content-Type-Options:
+      - nosniff
+      X-Rate-Limit-Remaining:
+      - '444'
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Response-Time:
+      - '107'
+      X-Connection-Hash:
+      - f0b7d1ab7414069bfd6456a0e9f5ad64a3bb723ec73ba8d478e88f6603c70b5f
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"edit_history_tweet_ids":["1611272894998548483"],"id":"1611272894998548483","created_at":"2023-01-06T08:06:08.000Z","text":"Cleared:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM."},{"edit_history_tweet_ids":["1611257313595359233"],"id":"1611257313595359233","created_at":"2023-01-06T07:04:13.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM. https://t.co/AhcOlE3GSa"},{"edit_history_tweet_ids":["1611240971492274178"],"id":"1611240971492274178","created_at":"2023-01-06T05:59:17.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:58 AM. https://t.co/AhcOlE3GSa"},{"edit_history_tweet_ids":["1611228494780043264"],"id":"1611228494780043264","created_at":"2023-01-06T05:09:42.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:09 AM. https://t.co/AhcOlE3GSa"},{"edit_history_tweet_ids":["1611213198988042247"],"id":"1611213198988042247","created_at":"2023-01-06T04:08:56.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 11:08 PM. https://t.co/AhcOlE3GSa"},{"edit_history_tweet_ids":["1611203884466466816"],"id":"1611203884466466816","created_at":"2023-01-06T03:31:55.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 10:31 PM. https://t.co/AhcOlE3GSa"},{"edit_history_tweet_ids":["1611186994960531456"],"id":"1611186994960531456","created_at":"2023-01-06T02:24:48.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 09:24 PM. https://t.co/AhcOlE3GSa"},{"edit_history_tweet_ids":["1611082421885341697"],"id":"1611082421885341697","created_at":"2023-01-05T19:29:16.000Z","text":"Crash
+        in Escambia County on I-10 East, at Exit 13 (SR-291/Davis Hwy). Center lane
+        blocked. Last updated at 02:28 PM. https://t.co/FfbqxINfls"},{"edit_history_tweet_ids":["1610998141289107458"],"id":"1610998141289107458","created_at":"2023-01-05T13:54:22.000Z","text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM."},{"edit_history_tweet_ids":["1610997629898625024"],"id":"1610997629898625024","created_at":"2023-01-05T13:52:20.000Z","text":"Updated:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM. https://t.co/jTxlufj3ER"},{"edit_history_tweet_ids":["1610997371999227904"],"id":"1610997371999227904","created_at":"2023-01-05T13:51:19.000Z","text":"Object
+        on roadway in Escambia County on I-10 East, at MM 15. Left lane blocked. Last
+        updated at 08:50 AM. https://t.co/jTxlufj3ER"},{"edit_history_tweet_ids":["1610481516219629569"],"id":"1610481516219629569","created_at":"2023-01-04T03:41:29.000Z","text":"Cleared:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM."},{"edit_history_tweet_ids":["1610479468522655744"],"id":"1610479468522655744","created_at":"2023-01-04T03:33:21.000Z","text":"Updated:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM. https://t.co/2Aus9tAjlx"},{"edit_history_tweet_ids":["1609966622055489537"],"id":"1609966622055489537","created_at":"2023-01-02T17:35:29.000Z","text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp.
+        Right lane blocked. Last updated at 12:06 PM."},{"edit_history_tweet_ids":["1609959588580970497"],"id":"1609959588580970497","created_at":"2023-01-02T17:07:32.000Z","text":"Object
+        on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp. Right
+        lane blocked. Last updated at 12:06 PM. https://t.co/erTp4S9fwH"},{"edit_history_tweet_ids":["1609929261959483393"],"id":"1609929261959483393","created_at":"2023-01-02T15:07:01.000Z","text":"Cleared:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM."},{"edit_history_tweet_ids":["1609916911567142912"],"id":"1609916911567142912","created_at":"2023-01-02T14:17:57.000Z","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM. https://t.co/RhqvnmgfSq"},{"edit_history_tweet_ids":["1609916898589945856"],"id":"1609916898589945856","created_at":"2023-01-02T14:17:54.000Z","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:14 AM. https://t.co/RhqvnmgfSq"},{"edit_history_tweet_ids":["1609916885826686977"],"id":"1609916885826686977","created_at":"2023-01-02T14:17:51.000Z","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:10 AM. https://t.co/RhqvnmgfSq"},{"edit_history_tweet_ids":["1609296264189087744"],"id":"1609296264189087744","created_at":"2022-12-31T21:11:43.000Z","text":"Cleared:
+        Object on roadway in Escambia County on I-10 West, at Exit 7 (SR-297/Pine
+        Forest Rd). Right lane blocked. Last updated at 03:50 PM."}],"meta":{"newest_id":"1611272894998548483","oldest_id":"1609296264189087744","result_count":20,"next_token":"b26v89c19zqg8o3fqk13cxkfrq544kadly8ypmmuyaut9"}}'
+  recorded_at: Fri, 06 Jan 2023 21:25:20 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/2/tweets/search/recent?max_results=20&query=from:fl511_panhandl%20Escambia&tweet.fields=created_at
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Authorization
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 06 Jan 2023 21:25:21 UTC
+      Perf:
+      - '7626143928'
+      Server:
+      - tsa_p
+      Set-Cookie:
+      - guest_id=v1%3A167304032117115853; Max-Age=63072000; Expires=Sun, 05 Jan 2025
+        21:25:21 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167304032117115853; Max-Age=63072000; Expires=Sun, 05 Jan
+        2025 21:25:21 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167304032117115853; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:21 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_Fuo/aFKgdXovGtmiaT8m2g=="; Max-Age=63072000; Expires=Sun,
+        05 Jan 2025 21:25:21 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      Api-Version:
+      - '2.60'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache, no-store, max-age=0
+      Content-Length:
+      - '1119'
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Transaction-Id:
+      - 2b80a4e108440fbc
+      X-Xss-Protection:
+      - '0'
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Reset:
+      - '1673041036'
+      Content-Disposition:
+      - attachment; filename=json.json
+      X-Content-Type-Options:
+      - nosniff
+      X-Rate-Limit-Remaining:
+      - '443'
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Response-Time:
+      - '100'
+      X-Connection-Hash:
+      - 7de6118d52e97ea4e6af0574c5baea5f0aa98d4287973ab8365dc29a1883d471
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"id":"1611272894998548483","created_at":"2023-01-06T08:06:08.000Z","text":"Cleared:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM.","edit_history_tweet_ids":["1611272894998548483"]},{"id":"1611257313595359233","created_at":"2023-01-06T07:04:13.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 02:03 AM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611257313595359233"]},{"id":"1611240971492274178","created_at":"2023-01-06T05:59:17.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:58 AM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611240971492274178"]},{"id":"1611228494780043264","created_at":"2023-01-06T05:09:42.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 12:09 AM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611228494780043264"]},{"id":"1611213198988042247","created_at":"2023-01-06T04:08:56.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 11:08 PM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611213198988042247"]},{"id":"1611203884466466816","created_at":"2023-01-06T03:31:55.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 10:31 PM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611203884466466816"]},{"id":"1611186994960531456","created_at":"2023-01-06T02:24:48.000Z","text":"Updated:
+        Planned construction in Escambia County on I-10 East, at MM 9. Left lane blocked.
+        Last updated at 09:24 PM. https://t.co/AhcOlE3GSa","edit_history_tweet_ids":["1611186994960531456"]},{"id":"1611082421885341697","created_at":"2023-01-05T19:29:16.000Z","text":"Crash
+        in Escambia County on I-10 East, at Exit 13 (SR-291/Davis Hwy). Center lane
+        blocked. Last updated at 02:28 PM. https://t.co/FfbqxINfls","edit_history_tweet_ids":["1611082421885341697"]},{"id":"1610998141289107458","created_at":"2023-01-05T13:54:22.000Z","text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM.","edit_history_tweet_ids":["1610998141289107458"]},{"id":"1610997629898625024","created_at":"2023-01-05T13:52:20.000Z","text":"Updated:
+        Object on roadway in Escambia County on I-10 East, at MM 15. Right lane blocked.
+        Last updated at 08:51 AM. https://t.co/jTxlufj3ER","edit_history_tweet_ids":["1610997629898625024"]},{"id":"1610997371999227904","created_at":"2023-01-05T13:51:19.000Z","text":"Object
+        on roadway in Escambia County on I-10 East, at MM 15. Left lane blocked. Last
+        updated at 08:50 AM. https://t.co/jTxlufj3ER","edit_history_tweet_ids":["1610997371999227904"]},{"id":"1610481516219629569","created_at":"2023-01-04T03:41:29.000Z","text":"Cleared:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM.","edit_history_tweet_ids":["1610481516219629569"]},{"id":"1610479468522655744","created_at":"2023-01-04T03:33:21.000Z","text":"Updated:
+        Crash in Escambia County on I-10 West, at MM 17 (Escambia Bay Bridge). Left
+        lane blocked. Last updated at 10:32 PM. https://t.co/2Aus9tAjlx","edit_history_tweet_ids":["1610479468522655744"]},{"id":"1609966622055489537","created_at":"2023-01-02T17:35:29.000Z","text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp.
+        Right lane blocked. Last updated at 12:06 PM.","edit_history_tweet_ids":["1609966622055489537"]},{"id":"1609959588580970497","created_at":"2023-01-02T17:07:32.000Z","text":"Object
+        on roadway in Escambia County on I-10 East, beyond Exit 13 On-ramp. Right
+        lane blocked. Last updated at 12:06 PM. https://t.co/erTp4S9fwH","edit_history_tweet_ids":["1609959588580970497"]},{"id":"1609929261959483393","created_at":"2023-01-02T15:07:01.000Z","text":"Cleared:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM.","edit_history_tweet_ids":["1609929261959483393"]},{"id":"1609916911567142912","created_at":"2023-01-02T14:17:57.000Z","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:15 AM. https://t.co/RhqvnmgfSq","edit_history_tweet_ids":["1609916911567142912"]},{"id":"1609916898589945856","created_at":"2023-01-02T14:17:54.000Z","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:14 AM. https://t.co/RhqvnmgfSq","edit_history_tweet_ids":["1609916898589945856"]},{"id":"1609916885826686977","created_at":"2023-01-02T14:17:51.000Z","text":"Updated:
+        Crash in Escambia County on I-110 South, at Exit 5 (Airport Blvd/SR-296/Brent
+        Ln). 2 Right lanes blocked. Last updated at 09:10 AM. https://t.co/RhqvnmgfSq","edit_history_tweet_ids":["1609916885826686977"]},{"id":"1609296264189087744","created_at":"2022-12-31T21:11:43.000Z","text":"Cleared:
+        Object on roadway in Escambia County on I-10 West, at Exit 7 (SR-297/Pine
+        Forest Rd). Right lane blocked. Last updated at 03:50 PM.","edit_history_tweet_ids":["1609296264189087744"]}],"meta":{"newest_id":"1611272894998548483","oldest_id":"1609296264189087744","result_count":20,"next_token":"b26v89c19zqg8o3fqk13cxkfrq544kadly8ypmmuyaut9"}}'
+  recorded_at: Fri, 06 Jan 2023 21:25:21 GMT
+recorded_with: VCR 6.1.0
