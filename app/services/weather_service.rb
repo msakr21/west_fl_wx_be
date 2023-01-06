@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class WeatherService
   def self.escambia_county_alerts
     get_url('alerts?zone=FLZ202&status=actual&severity=Severe,Extreme')

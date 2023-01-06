@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class NwsAlert
   attr_reader :id,
               :areas_affected,
