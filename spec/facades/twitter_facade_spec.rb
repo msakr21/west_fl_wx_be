@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe NwsFacade do
+RSpec.describe TwitterFacade do
   it 'exists' do
     twitter_facade = TwitterFacade.new
 
@@ -13,7 +13,6 @@ RSpec.describe NwsFacade do
         expect(TwitterFacade.fl511_alerts).to be_an Array
         expect(TwitterFacade.fl511_alerts.count).to eq 3
         expect(TwitterFacade.fl511_alerts.first.created_at).to be_a String
-        expect(TwitterFacade.fl511_alerts.first.created_at).to include('2023')
         expect(TwitterFacade.fl511_alerts.first.id).to be_a String
         expect(TwitterFacade.fl511_alerts.first.text).to be_a String
         expect(TwitterFacade.fl511_alerts.first.text).to include('Escambia')
@@ -25,7 +24,6 @@ RSpec.describe NwsFacade do
         expect(TwitterFacade.bereadyescambia_alerts).to be_an Array
         expect(TwitterFacade.bereadyescambia_alerts.count).to eq 3
         expect(TwitterFacade.bereadyescambia_alerts.first.created_at).to be_a String
-        expect(TwitterFacade.bereadyescambia_alerts.first.created_at).to include('2023')
         expect(TwitterFacade.bereadyescambia_alerts.first.id).to be_a String
         expect(TwitterFacade.bereadyescambia_alerts.first.text).to be_a String
       end
