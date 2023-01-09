@@ -21,20 +21,20 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 07 Jan 2023 17:51:54 UTC
+      - Mon, 09 Jan 2023 16:43:00 UTC
       Perf:
       - '7626143928'
       Server:
       - tsa_p
       Set-Cookie:
-      - guest_id=v1%3A167311391420106874; Max-Age=63072000; Expires=Mon, 06 Jan 2025
-        17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - guest_id_ads=v1%3A167311391420106874; Max-Age=63072000; Expires=Mon, 06 Jan
-        2025 17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - guest_id_marketing=v1%3A167311391420106874; Max-Age=63072000; Expires=Mon,
-        06 Jan 2025 17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - personalization_id="v1_exjwhsYPQim48rYcSrrYdw=="; Max-Age=63072000; Expires=Mon,
-        06 Jan 2025 17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id=v1%3A167328258031299563; Max-Age=63072000; Expires=Wed, 08 Jan 2025
+        16:43:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167328258031299563; Max-Age=63072000; Expires=Wed, 08 Jan
+        2025 16:43:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167328258031299563; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 16:43:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_0j9bMc1AL5/xnTMdlX5nVA=="; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 16:43:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Api-Version:
       - '2.60'
       Content-Type:
@@ -42,163 +42,19 @@ http_interactions:
       Cache-Control:
       - no-cache, no-store, max-age=0
       Content-Length:
-      - '713'
+      - '816'
       X-Access-Level:
       - read
       X-Frame-Options:
       - SAMEORIGIN
       X-Transaction-Id:
-      - 6da6c0d29ceccca1
+      - 305279b8e2b68b32
       X-Xss-Protection:
       - '0'
       X-Rate-Limit-Limit:
       - '450'
       X-Rate-Limit-Reset:
-      - '1673114812'
-      Content-Disposition:
-      - attachment; filename=json.json
-      X-Content-Type-Options:
-      - nosniff
-      X-Rate-Limit-Remaining:
-      - '443'
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Response-Time:
-      - '89'
-      X-Connection-Hash:
-      - 8a2adb77e05a90ffb938d0233a6e7b6e9a8ecf03b27cbbe497a6269db4a78d56
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJkYXRhIjpbeyJ0ZXh0IjoiXHVEODNEXHVEQ0YyIEFyZSB5b3Ugc2lnbmVkIHVwIGZvciBlbWVyZ2VuY3kgYWxlcnRzIGZvciBFc2NhbWJpYSBDb3VudHk/IEFyZSB5b3Ugc2lnbmVkIHVwIHRvIHJlY2VpdmUgdXBkYXRlcyBkdXJpbmcgZW1lcmdlbmNpZXM/IFxuXG5cdUQ4M0RcdURDRTIgR2V0IHNpZ25lZCB1cCB0b2RheSBhbmQgYmUgcmVhZHkhIFxuXG5cdUQ4M0RcdURDNDkgVmlzaXQgaHR0cHM6Ly90LmNvL2NIUnBjQU1jSjcgdG8gc2lnbiB1cCBmb3IgYW55IEVzY2FtYmlhIENvdW50eSBlbWVyZ2VuY3kgbm90aWZpY2F0aW9ucy5cblxuI2JlcmVhZHllc2NhbWJpYSBodHRwczovL3QuY28vRjVUWUkzWDRCcCIsImlkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA1VDIwOjQ5OjM5LjAwMFoiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTExMDI2NTExNjAwODQ0ODEiXX0seyJ0ZXh0IjoiUlQgQGllbWJvdF9tb2I6IE1PQiB1cGRhdGVzIFRvcm5hZG8gV2F0Y2ggKGNhbmNlbHMgNCBhcmVhcywgY29udGludWVzIDEyIGFyZWFzKSB0aWxsIEphbiA0LCAxMTowMCBBTSBDU1QgaHR0cHM6Ly90LmNvL09yYjF4eHl5Q2wgaHR0cHM6Ly90LuKApiIsImlkIjoiMTYxMDYyMjA1MjczMzcwMjE0NiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA0VDEyOjU5OjU1LjAwMFoiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTA2MjIwNTI3MzM3MDIxNDYiXX0seyJ0ZXh0IjoiUlQgQE15RkRPVF9OV0ZMOiBFU0MgLSBUaGUgRmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uIHdpbGwgYmVnaW4gd29yayBUdWVzZGF5LCBKYW51YXJ5IDMgb24gYSAkMi42IG1pbGxpb24gcHJvamVjdCB0byByZXN1cmZhY2UgTuKApiIsImlkIjoiMTYxMDM5NzE5ODM3Nzk3MTcxMiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTAzVDIyOjA2OjI2LjAwMFoiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTAzOTcxOTgzNzc5NzE3MTIiXX0seyJ0ZXh0IjoiUlQgQE5XU01vYmlsZTogVGhlcmUgaXMgYW4gKkVuaGFuY2VkIFJpc2sgb2YgU2V2ZXJlIFdlYXRoZXIqIG92ZXIgbW9zdCBvZiB0aGUgYXJlYSB0aHJvdWdoIHRvbmlnaHQsIHdpdGggbXVsdGlwbGUgcm91bmRzIG9mIHNldmVyZSB3ZWF0aGVy4oCmIiwiaWQiOiIxNjEwMjgwNjM0NTU5MzY1MTIxIiwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDNUMTQ6MjM6MTUuMDAwWiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDI4MDYzNDU1OTM2NTEyMSJdfV0sIm1ldGEiOnsibmV3ZXN0X2lkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsIm9sZGVzdF9pZCI6IjE2MTAyODA2MzQ1NTkzNjUxMjEiLCJyZXN1bHRfY291bnQiOjR9fQ==
-  recorded_at: Sat, 07 Jan 2023 17:51:54 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/2/tweets/search/recent?query=from:bereadyescambia&tweet.fields=created_at
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Authorization:
-      - Authorization
-      User-Agent:
-      - Faraday v2.7.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 07 Jan 2023 17:51:54 UTC
-      Perf:
-      - '7626143928'
-      Server:
-      - tsa_p
-      Set-Cookie:
-      - guest_id=v1%3A167311391450384082; Max-Age=63072000; Expires=Mon, 06 Jan 2025
-        17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - guest_id_ads=v1%3A167311391450384082; Max-Age=63072000; Expires=Mon, 06 Jan
-        2025 17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - guest_id_marketing=v1%3A167311391450384082; Max-Age=63072000; Expires=Mon,
-        06 Jan 2025 17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - personalization_id="v1_SX68IOQcFCRuz5BLnBFrOw=="; Max-Age=63072000; Expires=Mon,
-        06 Jan 2025 17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      Api-Version:
-      - '2.60'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache, no-store, max-age=0
-      Content-Length:
-      - '714'
-      X-Access-Level:
-      - read
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Transaction-Id:
-      - a5b21e8d77d46d38
-      X-Xss-Protection:
-      - '0'
-      X-Rate-Limit-Limit:
-      - '450'
-      X-Rate-Limit-Reset:
-      - '1673114812'
-      Content-Disposition:
-      - attachment; filename=json.json
-      X-Content-Type-Options:
-      - nosniff
-      X-Rate-Limit-Remaining:
-      - '442'
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Response-Time:
-      - '88'
-      X-Connection-Hash:
-      - db2ca628b06b0f4bc6b952bf35ca525224cd61571fed75e1d94773b56db78431
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJkYXRhIjpbeyJpZCI6IjE2MTExMDI2NTExNjAwODQ0ODEiLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wNVQyMDo0OTozOS4wMDBaIiwidGV4dCI6Ilx1RDgzRFx1RENGMiBBcmUgeW91IHNpZ25lZCB1cCBmb3IgZW1lcmdlbmN5IGFsZXJ0cyBmb3IgRXNjYW1iaWEgQ291bnR5PyBBcmUgeW91IHNpZ25lZCB1cCB0byByZWNlaXZlIHVwZGF0ZXMgZHVyaW5nIGVtZXJnZW5jaWVzPyBcblxuXHVEODNEXHVEQ0UyIEdldCBzaWduZWQgdXAgdG9kYXkgYW5kIGJlIHJlYWR5ISBcblxuXHVEODNEXHVEQzQ5IFZpc2l0IGh0dHBzOi8vdC5jby9jSFJwY0FNY0o3IHRvIHNpZ24gdXAgZm9yIGFueSBFc2NhbWJpYSBDb3VudHkgZW1lcmdlbmN5IG5vdGlmaWNhdGlvbnMuXG5cbiNiZXJlYWR5ZXNjYW1iaWEgaHR0cHM6Ly90LmNvL0Y1VFlJM1g0QnAiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTExMDI2NTExNjAwODQ0ODEiXX0seyJpZCI6IjE2MTA2MjIwNTI3MzM3MDIxNDYiLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wNFQxMjo1OTo1NS4wMDBaIiwidGV4dCI6IlJUIEBpZW1ib3RfbW9iOiBNT0IgdXBkYXRlcyBUb3JuYWRvIFdhdGNoIChjYW5jZWxzIDQgYXJlYXMsIGNvbnRpbnVlcyAxMiBhcmVhcykgdGlsbCBKYW4gNCwgMTE6MDAgQU0gQ1NUIGh0dHBzOi8vdC5jby9PcmIxeHh5eUNsIGh0dHBzOi8vdC7igKYiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTA2MjIwNTI3MzM3MDIxNDYiXX0seyJpZCI6IjE2MTAzOTcxOTgzNzc5NzE3MTIiLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wM1QyMjowNjoyNi4wMDBaIiwidGV4dCI6IlJUIEBNeUZET1RfTldGTDogRVNDIC0gVGhlIEZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiB3aWxsIGJlZ2luIHdvcmsgVHVlc2RheSwgSmFudWFyeSAzIG9uIGEgJDIuNiBtaWxsaW9uIHByb2plY3QgdG8gcmVzdXJmYWNlIE7igKYiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTAzOTcxOTgzNzc5NzE3MTIiXX0seyJpZCI6IjE2MTAyODA2MzQ1NTkzNjUxMjEiLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wM1QxNDoyMzoxNS4wMDBaIiwidGV4dCI6IlJUIEBOV1NNb2JpbGU6IFRoZXJlIGlzIGFuICpFbmhhbmNlZCBSaXNrIG9mIFNldmVyZSBXZWF0aGVyKiBvdmVyIG1vc3Qgb2YgdGhlIGFyZWEgdGhyb3VnaCB0b25pZ2h0LCB3aXRoIG11bHRpcGxlIHJvdW5kcyBvZiBzZXZlcmUgd2VhdGhlcuKApiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDI4MDYzNDU1OTM2NTEyMSJdfV0sIm1ldGEiOnsibmV3ZXN0X2lkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsIm9sZGVzdF9pZCI6IjE2MTAyODA2MzQ1NTkzNjUxMjEiLCJyZXN1bHRfY291bnQiOjR9fQ==
-  recorded_at: Sat, 07 Jan 2023 17:51:54 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/2/tweets/search/recent?query=from:bereadyescambia&tweet.fields=created_at
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Authorization:
-      - Authorization
-      User-Agent:
-      - Faraday v2.7.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 07 Jan 2023 17:51:54 UTC
-      Perf:
-      - '7626143928'
-      Server:
-      - tsa_p
-      Set-Cookie:
-      - guest_id=v1%3A167311391479036263; Max-Age=63072000; Expires=Mon, 06 Jan 2025
-        17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - guest_id_ads=v1%3A167311391479036263; Max-Age=63072000; Expires=Mon, 06 Jan
-        2025 17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - guest_id_marketing=v1%3A167311391479036263; Max-Age=63072000; Expires=Mon,
-        06 Jan 2025 17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - personalization_id="v1_eXrNdREnjg4Ig1E0Noaqwg=="; Max-Age=63072000; Expires=Mon,
-        06 Jan 2025 17:51:54 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      Api-Version:
-      - '2.60'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache, no-store, max-age=0
-      Content-Length:
-      - '710'
-      X-Access-Level:
-      - read
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Transaction-Id:
-      - 88fd345f7b31af68
-      X-Xss-Protection:
-      - '0'
-      X-Rate-Limit-Limit:
-      - '450'
-      X-Rate-Limit-Reset:
-      - '1673114812'
+      - '1673283435'
       Content-Disposition:
       - attachment; filename=json.json
       X-Content-Type-Options:
@@ -208,14 +64,14 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=631138519
       X-Response-Time:
-      - '106'
+      - '97'
       X-Connection-Hash:
-      - 45cf3f09fff553aa876909637e91a02b87486ab238ce82e03b5f4e51d111312d
+      - 8be00f858e6c6bf9d2971bbe93dff2ed5dd266cc0a9d2db1914fc21de09aea88
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJkYXRhIjpbeyJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTExMDI2NTExNjAwODQ0ODEiXSwiaWQiOiIxNjExMTAyNjUxMTYwMDg0NDgxIiwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDVUMjA6NDk6MzkuMDAwWiIsInRleHQiOiJcdUQ4M0RcdURDRjIgQXJlIHlvdSBzaWduZWQgdXAgZm9yIGVtZXJnZW5jeSBhbGVydHMgZm9yIEVzY2FtYmlhIENvdW50eT8gQXJlIHlvdSBzaWduZWQgdXAgdG8gcmVjZWl2ZSB1cGRhdGVzIGR1cmluZyBlbWVyZ2VuY2llcz8gXG5cblx1RDgzRFx1RENFMiBHZXQgc2lnbmVkIHVwIHRvZGF5IGFuZCBiZSByZWFkeSEgXG5cblx1RDgzRFx1REM0OSBWaXNpdCBodHRwczovL3QuY28vY0hScGNBTWNKNyB0byBzaWduIHVwIGZvciBhbnkgRXNjYW1iaWEgQ291bnR5IGVtZXJnZW5jeSBub3RpZmljYXRpb25zLlxuXG4jYmVyZWFkeWVzY2FtYmlhIGh0dHBzOi8vdC5jby9GNVRZSTNYNEJwIn0seyJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTA2MjIwNTI3MzM3MDIxNDYiXSwiaWQiOiIxNjEwNjIyMDUyNzMzNzAyMTQ2IiwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDRUMTI6NTk6NTUuMDAwWiIsInRleHQiOiJSVCBAaWVtYm90X21vYjogTU9CIHVwZGF0ZXMgVG9ybmFkbyBXYXRjaCAoY2FuY2VscyA0IGFyZWFzLCBjb250aW51ZXMgMTIgYXJlYXMpIHRpbGwgSmFuIDQsIDExOjAwIEFNIENTVCBodHRwczovL3QuY28vT3JiMXh4eXlDbCBodHRwczovL3Qu4oCmIn0seyJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTAzOTcxOTgzNzc5NzE3MTIiXSwiaWQiOiIxNjEwMzk3MTk4Mzc3OTcxNzEyIiwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDNUMjI6MDY6MjYuMDAwWiIsInRleHQiOiJSVCBATXlGRE9UX05XRkw6IEVTQyAtIFRoZSBGbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24gd2lsbCBiZWdpbiB3b3JrIFR1ZXNkYXksIEphbnVhcnkgMyBvbiBhICQyLjYgbWlsbGlvbiBwcm9qZWN0IHRvIHJlc3VyZmFjZSBO4oCmIn0seyJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTAyODA2MzQ1NTkzNjUxMjEiXSwiaWQiOiIxNjEwMjgwNjM0NTU5MzY1MTIxIiwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDNUMTQ6MjM6MTUuMDAwWiIsInRleHQiOiJSVCBATldTTW9iaWxlOiBUaGVyZSBpcyBhbiAqRW5oYW5jZWQgUmlzayBvZiBTZXZlcmUgV2VhdGhlciogb3ZlciBtb3N0IG9mIHRoZSBhcmVhIHRocm91Z2ggdG9uaWdodCwgd2l0aCBtdWx0aXBsZSByb3VuZHMgb2Ygc2V2ZXJlIHdlYXRoZXLigKYifV0sIm1ldGEiOnsibmV3ZXN0X2lkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsIm9sZGVzdF9pZCI6IjE2MTAyODA2MzQ1NTkzNjUxMjEiLCJyZXN1bHRfY291bnQiOjR9fQ==
-  recorded_at: Sat, 07 Jan 2023 17:51:54 GMT
+        eyJkYXRhIjpbeyJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wOVQxNTozODozOC4wMDBaIiwidGV4dCI6IlJUIEBOV1NNb2JpbGU6IFRvZGF5IHdpbGwgYmUgZHJ5IHdpdGggbmVhciBzZWFzb25hYmxlIHRlbXBlcmF0dXJlcy4gIEhpZ2hzIHdpbGwgbW9zdGx5IHJhbmdlIGZyb20gdGhlIHVwcGVyIDUwcyB3ZWxsIGlubGFuZCB0byB0aGUgbWlkIDYwc+KApiIsImlkIjoiMTYxMjQ3MzkzMTA3MTQ3NTcxMiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMjQ3MzkzMTA3MTQ3NTcxMiJdfSx7ImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA1VDIwOjQ5OjM5LjAwMFoiLCJ0ZXh0IjoiXHVEODNEXHVEQ0YyIEFyZSB5b3Ugc2lnbmVkIHVwIGZvciBlbWVyZ2VuY3kgYWxlcnRzIGZvciBFc2NhbWJpYSBDb3VudHk/IEFyZSB5b3Ugc2lnbmVkIHVwIHRvIHJlY2VpdmUgdXBkYXRlcyBkdXJpbmcgZW1lcmdlbmNpZXM/IFxuXG5cdUQ4M0RcdURDRTIgR2V0IHNpZ25lZCB1cCB0b2RheSBhbmQgYmUgcmVhZHkhIFxuXG5cdUQ4M0RcdURDNDkgVmlzaXQgaHR0cHM6Ly90LmNvL2NIUnBjQU1jSjcgdG8gc2lnbiB1cCBmb3IgYW55IEVzY2FtYmlhIENvdW50eSBlbWVyZ2VuY3kgbm90aWZpY2F0aW9ucy5cblxuI2JlcmVhZHllc2NhbWJpYSBodHRwczovL3QuY28vRjVUWUkzWDRCcCIsImlkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMTEwMjY1MTE2MDA4NDQ4MSJdfSx7ImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA0VDEyOjU5OjU1LjAwMFoiLCJ0ZXh0IjoiUlQgQGllbWJvdF9tb2I6IE1PQiB1cGRhdGVzIFRvcm5hZG8gV2F0Y2ggKGNhbmNlbHMgNCBhcmVhcywgY29udGludWVzIDEyIGFyZWFzKSB0aWxsIEphbiA0LCAxMTowMCBBTSBDU1QgaHR0cHM6Ly90LmNvL09yYjF4eHl5Q2wgaHR0cHM6Ly90LuKApiIsImlkIjoiMTYxMDYyMjA1MjczMzcwMjE0NiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDYyMjA1MjczMzcwMjE0NiJdfSx7ImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTAzVDIyOjA2OjI2LjAwMFoiLCJ0ZXh0IjoiUlQgQE15RkRPVF9OV0ZMOiBFU0MgLSBUaGUgRmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uIHdpbGwgYmVnaW4gd29yayBUdWVzZGF5LCBKYW51YXJ5IDMgb24gYSAkMi42IG1pbGxpb24gcHJvamVjdCB0byByZXN1cmZhY2UgTuKApiIsImlkIjoiMTYxMDM5NzE5ODM3Nzk3MTcxMiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDM5NzE5ODM3Nzk3MTcxMiJdfSx7ImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTAzVDE0OjIzOjE1LjAwMFoiLCJ0ZXh0IjoiUlQgQE5XU01vYmlsZTogVGhlcmUgaXMgYW4gKkVuaGFuY2VkIFJpc2sgb2YgU2V2ZXJlIFdlYXRoZXIqIG92ZXIgbW9zdCBvZiB0aGUgYXJlYSB0aHJvdWdoIHRvbmlnaHQsIHdpdGggbXVsdGlwbGUgcm91bmRzIG9mIHNldmVyZSB3ZWF0aGVy4oCmIiwiaWQiOiIxNjEwMjgwNjM0NTU5MzY1MTIxIiwiZWRpdF9oaXN0b3J5X3R3ZWV0X2lkcyI6WyIxNjEwMjgwNjM0NTU5MzY1MTIxIl19XSwibWV0YSI6eyJuZXdlc3RfaWQiOiIxNjEyNDczOTMxMDcxNDc1NzEyIiwib2xkZXN0X2lkIjoiMTYxMDI4MDYzNDU1OTM2NTEyMSIsInJlc3VsdF9jb3VudCI6NX19
+  recorded_at: Mon, 09 Jan 2023 16:43:00 GMT
 - request:
     method: get
     uri: https://api.twitter.com/2/tweets/search/recent?query=from:bereadyescambia&tweet.fields=created_at
@@ -237,20 +93,20 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 07 Jan 2023 17:51:55 UTC
+      - Mon, 09 Jan 2023 16:43:00 UTC
       Perf:
       - '7626143928'
       Server:
       - tsa_p
       Set-Cookie:
-      - guest_id=v1%3A167311391511659507; Max-Age=63072000; Expires=Mon, 06 Jan 2025
-        17:51:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - guest_id_ads=v1%3A167311391511659507; Max-Age=63072000; Expires=Mon, 06 Jan
-        2025 17:51:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - guest_id_marketing=v1%3A167311391511659507; Max-Age=63072000; Expires=Mon,
-        06 Jan 2025 17:51:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - personalization_id="v1_Z1KHrGH4IDnyFIPHD6xG8w=="; Max-Age=63072000; Expires=Mon,
-        06 Jan 2025 17:51:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id=v1%3A167328258061557952; Max-Age=63072000; Expires=Wed, 08 Jan 2025
+        16:43:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167328258061557952; Max-Age=63072000; Expires=Wed, 08 Jan
+        2025 16:43:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167328258061557952; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 16:43:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_jMtPdOaRRoCTWIUMTqKFsw=="; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 16:43:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Api-Version:
       - '2.60'
       Content-Type:
@@ -258,19 +114,19 @@ http_interactions:
       Cache-Control:
       - no-cache, no-store, max-age=0
       Content-Length:
-      - '713'
+      - '818'
       X-Access-Level:
       - read
       X-Frame-Options:
       - SAMEORIGIN
       X-Transaction-Id:
-      - 27a6dd6ee72799af
+      - 1b460989b0b53c41
       X-Xss-Protection:
       - '0'
       X-Rate-Limit-Limit:
       - '450'
       X-Rate-Limit-Reset:
-      - '1673114812'
+      - '1673283435'
       Content-Disposition:
       - attachment; filename=json.json
       X-Content-Type-Options:
@@ -280,14 +136,14 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=631138519
       X-Response-Time:
-      - '81'
+      - '117'
       X-Connection-Hash:
-      - 6bc59862f23c4acaf3ddc1080a5ba63a04db2be0f6928e419c471838c794c7ea
+      - 8e3c2c73b162dcb9636097cd6049a93e437760dc3f1e99e114392a7eb4ab9b59
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJkYXRhIjpbeyJpZCI6IjE2MTExMDI2NTExNjAwODQ0ODEiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTExMDI2NTExNjAwODQ0ODEiXSwidGV4dCI6Ilx1RDgzRFx1RENGMiBBcmUgeW91IHNpZ25lZCB1cCBmb3IgZW1lcmdlbmN5IGFsZXJ0cyBmb3IgRXNjYW1iaWEgQ291bnR5PyBBcmUgeW91IHNpZ25lZCB1cCB0byByZWNlaXZlIHVwZGF0ZXMgZHVyaW5nIGVtZXJnZW5jaWVzPyBcblxuXHVEODNEXHVEQ0UyIEdldCBzaWduZWQgdXAgdG9kYXkgYW5kIGJlIHJlYWR5ISBcblxuXHVEODNEXHVEQzQ5IFZpc2l0IGh0dHBzOi8vdC5jby9jSFJwY0FNY0o3IHRvIHNpZ24gdXAgZm9yIGFueSBFc2NhbWJpYSBDb3VudHkgZW1lcmdlbmN5IG5vdGlmaWNhdGlvbnMuXG5cbiNiZXJlYWR5ZXNjYW1iaWEgaHR0cHM6Ly90LmNvL0Y1VFlJM1g0QnAiLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wNVQyMDo0OTozOS4wMDBaIn0seyJpZCI6IjE2MTA2MjIwNTI3MzM3MDIxNDYiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTA2MjIwNTI3MzM3MDIxNDYiXSwidGV4dCI6IlJUIEBpZW1ib3RfbW9iOiBNT0IgdXBkYXRlcyBUb3JuYWRvIFdhdGNoIChjYW5jZWxzIDQgYXJlYXMsIGNvbnRpbnVlcyAxMiBhcmVhcykgdGlsbCBKYW4gNCwgMTE6MDAgQU0gQ1NUIGh0dHBzOi8vdC5jby9PcmIxeHh5eUNsIGh0dHBzOi8vdC7igKYiLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wNFQxMjo1OTo1NS4wMDBaIn0seyJpZCI6IjE2MTAzOTcxOTgzNzc5NzE3MTIiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTAzOTcxOTgzNzc5NzE3MTIiXSwidGV4dCI6IlJUIEBNeUZET1RfTldGTDogRVNDIC0gVGhlIEZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiB3aWxsIGJlZ2luIHdvcmsgVHVlc2RheSwgSmFudWFyeSAzIG9uIGEgJDIuNiBtaWxsaW9uIHByb2plY3QgdG8gcmVzdXJmYWNlIE7igKYiLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wM1QyMjowNjoyNi4wMDBaIn0seyJpZCI6IjE2MTAyODA2MzQ1NTkzNjUxMjEiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTAyODA2MzQ1NTkzNjUxMjEiXSwidGV4dCI6IlJUIEBOV1NNb2JpbGU6IFRoZXJlIGlzIGFuICpFbmhhbmNlZCBSaXNrIG9mIFNldmVyZSBXZWF0aGVyKiBvdmVyIG1vc3Qgb2YgdGhlIGFyZWEgdGhyb3VnaCB0b25pZ2h0LCB3aXRoIG11bHRpcGxlIHJvdW5kcyBvZiBzZXZlcmUgd2VhdGhlcuKApiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTAzVDE0OjIzOjE1LjAwMFoifV0sIm1ldGEiOnsibmV3ZXN0X2lkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsIm9sZGVzdF9pZCI6IjE2MTAyODA2MzQ1NTkzNjUxMjEiLCJyZXN1bHRfY291bnQiOjR9fQ==
-  recorded_at: Sat, 07 Jan 2023 17:51:55 GMT
+        eyJkYXRhIjpbeyJpZCI6IjE2MTI0NzM5MzEwNzE0NzU3MTIiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTI0NzM5MzEwNzE0NzU3MTIiXSwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDlUMTU6Mzg6MzguMDAwWiIsInRleHQiOiJSVCBATldTTW9iaWxlOiBUb2RheSB3aWxsIGJlIGRyeSB3aXRoIG5lYXIgc2Vhc29uYWJsZSB0ZW1wZXJhdHVyZXMuICBIaWdocyB3aWxsIG1vc3RseSByYW5nZSBmcm9tIHRoZSB1cHBlciA1MHMgd2VsbCBpbmxhbmQgdG8gdGhlIG1pZCA2MHPigKYifSx7ImlkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMTEwMjY1MTE2MDA4NDQ4MSJdLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wNVQyMDo0OTozOS4wMDBaIiwidGV4dCI6Ilx1RDgzRFx1RENGMiBBcmUgeW91IHNpZ25lZCB1cCBmb3IgZW1lcmdlbmN5IGFsZXJ0cyBmb3IgRXNjYW1iaWEgQ291bnR5PyBBcmUgeW91IHNpZ25lZCB1cCB0byByZWNlaXZlIHVwZGF0ZXMgZHVyaW5nIGVtZXJnZW5jaWVzPyBcblxuXHVEODNEXHVEQ0UyIEdldCBzaWduZWQgdXAgdG9kYXkgYW5kIGJlIHJlYWR5ISBcblxuXHVEODNEXHVEQzQ5IFZpc2l0IGh0dHBzOi8vdC5jby9jSFJwY0FNY0o3IHRvIHNpZ24gdXAgZm9yIGFueSBFc2NhbWJpYSBDb3VudHkgZW1lcmdlbmN5IG5vdGlmaWNhdGlvbnMuXG5cbiNiZXJlYWR5ZXNjYW1iaWEgaHR0cHM6Ly90LmNvL0Y1VFlJM1g0QnAifSx7ImlkIjoiMTYxMDYyMjA1MjczMzcwMjE0NiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDYyMjA1MjczMzcwMjE0NiJdLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wNFQxMjo1OTo1NS4wMDBaIiwidGV4dCI6IlJUIEBpZW1ib3RfbW9iOiBNT0IgdXBkYXRlcyBUb3JuYWRvIFdhdGNoIChjYW5jZWxzIDQgYXJlYXMsIGNvbnRpbnVlcyAxMiBhcmVhcykgdGlsbCBKYW4gNCwgMTE6MDAgQU0gQ1NUIGh0dHBzOi8vdC5jby9PcmIxeHh5eUNsIGh0dHBzOi8vdC7igKYifSx7ImlkIjoiMTYxMDM5NzE5ODM3Nzk3MTcxMiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDM5NzE5ODM3Nzk3MTcxMiJdLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wM1QyMjowNjoyNi4wMDBaIiwidGV4dCI6IlJUIEBNeUZET1RfTldGTDogRVNDIC0gVGhlIEZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiB3aWxsIGJlZ2luIHdvcmsgVHVlc2RheSwgSmFudWFyeSAzIG9uIGEgJDIuNiBtaWxsaW9uIHByb2plY3QgdG8gcmVzdXJmYWNlIE7igKYifSx7ImlkIjoiMTYxMDI4MDYzNDU1OTM2NTEyMSIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDI4MDYzNDU1OTM2NTEyMSJdLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wM1QxNDoyMzoxNS4wMDBaIiwidGV4dCI6IlJUIEBOV1NNb2JpbGU6IFRoZXJlIGlzIGFuICpFbmhhbmNlZCBSaXNrIG9mIFNldmVyZSBXZWF0aGVyKiBvdmVyIG1vc3Qgb2YgdGhlIGFyZWEgdGhyb3VnaCB0b25pZ2h0LCB3aXRoIG11bHRpcGxlIHJvdW5kcyBvZiBzZXZlcmUgd2VhdGhlcuKApiJ9XSwibWV0YSI6eyJuZXdlc3RfaWQiOiIxNjEyNDczOTMxMDcxNDc1NzEyIiwib2xkZXN0X2lkIjoiMTYxMDI4MDYzNDU1OTM2NTEyMSIsInJlc3VsdF9jb3VudCI6NX19
+  recorded_at: Mon, 09 Jan 2023 16:43:00 GMT
 - request:
     method: get
     uri: https://api.twitter.com/2/tweets/search/recent?query=from:bereadyescambia&tweet.fields=created_at
@@ -309,20 +165,20 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 07 Jan 2023 17:51:55 UTC
+      - Mon, 09 Jan 2023 16:43:01 UTC
       Perf:
       - '7626143928'
       Server:
       - tsa_p
       Set-Cookie:
-      - guest_id=v1%3A167311391541405683; Max-Age=63072000; Expires=Mon, 06 Jan 2025
-        17:51:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - guest_id_ads=v1%3A167311391541405683; Max-Age=63072000; Expires=Mon, 06 Jan
-        2025 17:51:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - guest_id_marketing=v1%3A167311391541405683; Max-Age=63072000; Expires=Mon,
-        06 Jan 2025 17:51:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - personalization_id="v1_LvbWz0/0OsGFuLlC86QcTQ=="; Max-Age=63072000; Expires=Mon,
-        06 Jan 2025 17:51:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id=v1%3A167328258093371792; Max-Age=63072000; Expires=Wed, 08 Jan 2025
+        16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167328258093371792; Max-Age=63072000; Expires=Wed, 08 Jan
+        2025 16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167328258093371792; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_uAXC+R8Rb8v0IDMwhPJCAw=="; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Api-Version:
       - '2.60'
       Content-Type:
@@ -330,19 +186,19 @@ http_interactions:
       Cache-Control:
       - no-cache, no-store, max-age=0
       Content-Length:
-      - '712'
+      - '820'
       X-Access-Level:
       - read
       X-Frame-Options:
       - SAMEORIGIN
       X-Transaction-Id:
-      - 273bff654fcaec9e
+      - 45a055084f0499b7
       X-Xss-Protection:
       - '0'
       X-Rate-Limit-Limit:
       - '450'
       X-Rate-Limit-Reset:
-      - '1673114812'
+      - '1673283435'
       Content-Disposition:
       - attachment; filename=json.json
       X-Content-Type-Options:
@@ -352,12 +208,156 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=631138519
       X-Response-Time:
-      - '91'
+      - '104'
       X-Connection-Hash:
-      - fa34ded757aec2c1d07e291e496d3e927317f89a3a69901ad8443947461584b0
+      - 064172b853ceab078af39f79f9c7b194aab29d3a1ae10055583da012a3e73aa0
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJkYXRhIjpbeyJ0ZXh0IjoiXHVEODNEXHVEQ0YyIEFyZSB5b3Ugc2lnbmVkIHVwIGZvciBlbWVyZ2VuY3kgYWxlcnRzIGZvciBFc2NhbWJpYSBDb3VudHk/IEFyZSB5b3Ugc2lnbmVkIHVwIHRvIHJlY2VpdmUgdXBkYXRlcyBkdXJpbmcgZW1lcmdlbmNpZXM/IFxuXG5cdUQ4M0RcdURDRTIgR2V0IHNpZ25lZCB1cCB0b2RheSBhbmQgYmUgcmVhZHkhIFxuXG5cdUQ4M0RcdURDNDkgVmlzaXQgaHR0cHM6Ly90LmNvL2NIUnBjQU1jSjcgdG8gc2lnbiB1cCBmb3IgYW55IEVzY2FtYmlhIENvdW50eSBlbWVyZ2VuY3kgbm90aWZpY2F0aW9ucy5cblxuI2JlcmVhZHllc2NhbWJpYSBodHRwczovL3QuY28vRjVUWUkzWDRCcCIsImlkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMTEwMjY1MTE2MDA4NDQ4MSJdLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wNVQyMDo0OTozOS4wMDBaIn0seyJ0ZXh0IjoiUlQgQGllbWJvdF9tb2I6IE1PQiB1cGRhdGVzIFRvcm5hZG8gV2F0Y2ggKGNhbmNlbHMgNCBhcmVhcywgY29udGludWVzIDEyIGFyZWFzKSB0aWxsIEphbiA0LCAxMTowMCBBTSBDU1QgaHR0cHM6Ly90LmNvL09yYjF4eHl5Q2wgaHR0cHM6Ly90LuKApiIsImlkIjoiMTYxMDYyMjA1MjczMzcwMjE0NiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDYyMjA1MjczMzcwMjE0NiJdLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wNFQxMjo1OTo1NS4wMDBaIn0seyJ0ZXh0IjoiUlQgQE15RkRPVF9OV0ZMOiBFU0MgLSBUaGUgRmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uIHdpbGwgYmVnaW4gd29yayBUdWVzZGF5LCBKYW51YXJ5IDMgb24gYSAkMi42IG1pbGxpb24gcHJvamVjdCB0byByZXN1cmZhY2UgTuKApiIsImlkIjoiMTYxMDM5NzE5ODM3Nzk3MTcxMiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDM5NzE5ODM3Nzk3MTcxMiJdLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wM1QyMjowNjoyNi4wMDBaIn0seyJ0ZXh0IjoiUlQgQE5XU01vYmlsZTogVGhlcmUgaXMgYW4gKkVuaGFuY2VkIFJpc2sgb2YgU2V2ZXJlIFdlYXRoZXIqIG92ZXIgbW9zdCBvZiB0aGUgYXJlYSB0aHJvdWdoIHRvbmlnaHQsIHdpdGggbXVsdGlwbGUgcm91bmRzIG9mIHNldmVyZSB3ZWF0aGVy4oCmIiwiaWQiOiIxNjEwMjgwNjM0NTU5MzY1MTIxIiwiZWRpdF9oaXN0b3J5X3R3ZWV0X2lkcyI6WyIxNjEwMjgwNjM0NTU5MzY1MTIxIl0sImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTAzVDE0OjIzOjE1LjAwMFoifV0sIm1ldGEiOnsibmV3ZXN0X2lkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsIm9sZGVzdF9pZCI6IjE2MTAyODA2MzQ1NTkzNjUxMjEiLCJyZXN1bHRfY291bnQiOjR9fQ==
-  recorded_at: Sat, 07 Jan 2023 17:51:55 GMT
+        eyJkYXRhIjpbeyJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wOVQxNTozODozOC4wMDBaIiwidGV4dCI6IlJUIEBOV1NNb2JpbGU6IFRvZGF5IHdpbGwgYmUgZHJ5IHdpdGggbmVhciBzZWFzb25hYmxlIHRlbXBlcmF0dXJlcy4gIEhpZ2hzIHdpbGwgbW9zdGx5IHJhbmdlIGZyb20gdGhlIHVwcGVyIDUwcyB3ZWxsIGlubGFuZCB0byB0aGUgbWlkIDYwc+KApiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMjQ3MzkzMTA3MTQ3NTcxMiJdLCJpZCI6IjE2MTI0NzM5MzEwNzE0NzU3MTIifSx7ImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA1VDIwOjQ5OjM5LjAwMFoiLCJ0ZXh0IjoiXHVEODNEXHVEQ0YyIEFyZSB5b3Ugc2lnbmVkIHVwIGZvciBlbWVyZ2VuY3kgYWxlcnRzIGZvciBFc2NhbWJpYSBDb3VudHk/IEFyZSB5b3Ugc2lnbmVkIHVwIHRvIHJlY2VpdmUgdXBkYXRlcyBkdXJpbmcgZW1lcmdlbmNpZXM/IFxuXG5cdUQ4M0RcdURDRTIgR2V0IHNpZ25lZCB1cCB0b2RheSBhbmQgYmUgcmVhZHkhIFxuXG5cdUQ4M0RcdURDNDkgVmlzaXQgaHR0cHM6Ly90LmNvL2NIUnBjQU1jSjcgdG8gc2lnbiB1cCBmb3IgYW55IEVzY2FtYmlhIENvdW50eSBlbWVyZ2VuY3kgbm90aWZpY2F0aW9ucy5cblxuI2JlcmVhZHllc2NhbWJpYSBodHRwczovL3QuY28vRjVUWUkzWDRCcCIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMTEwMjY1MTE2MDA4NDQ4MSJdLCJpZCI6IjE2MTExMDI2NTExNjAwODQ0ODEifSx7ImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA0VDEyOjU5OjU1LjAwMFoiLCJ0ZXh0IjoiUlQgQGllbWJvdF9tb2I6IE1PQiB1cGRhdGVzIFRvcm5hZG8gV2F0Y2ggKGNhbmNlbHMgNCBhcmVhcywgY29udGludWVzIDEyIGFyZWFzKSB0aWxsIEphbiA0LCAxMTowMCBBTSBDU1QgaHR0cHM6Ly90LmNvL09yYjF4eHl5Q2wgaHR0cHM6Ly90LuKApiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDYyMjA1MjczMzcwMjE0NiJdLCJpZCI6IjE2MTA2MjIwNTI3MzM3MDIxNDYifSx7ImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTAzVDIyOjA2OjI2LjAwMFoiLCJ0ZXh0IjoiUlQgQE15RkRPVF9OV0ZMOiBFU0MgLSBUaGUgRmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uIHdpbGwgYmVnaW4gd29yayBUdWVzZGF5LCBKYW51YXJ5IDMgb24gYSAkMi42IG1pbGxpb24gcHJvamVjdCB0byByZXN1cmZhY2UgTuKApiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDM5NzE5ODM3Nzk3MTcxMiJdLCJpZCI6IjE2MTAzOTcxOTgzNzc5NzE3MTIifSx7ImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTAzVDE0OjIzOjE1LjAwMFoiLCJ0ZXh0IjoiUlQgQE5XU01vYmlsZTogVGhlcmUgaXMgYW4gKkVuaGFuY2VkIFJpc2sgb2YgU2V2ZXJlIFdlYXRoZXIqIG92ZXIgbW9zdCBvZiB0aGUgYXJlYSB0aHJvdWdoIHRvbmlnaHQsIHdpdGggbXVsdGlwbGUgcm91bmRzIG9mIHNldmVyZSB3ZWF0aGVy4oCmIiwiZWRpdF9oaXN0b3J5X3R3ZWV0X2lkcyI6WyIxNjEwMjgwNjM0NTU5MzY1MTIxIl0sImlkIjoiMTYxMDI4MDYzNDU1OTM2NTEyMSJ9XSwibWV0YSI6eyJuZXdlc3RfaWQiOiIxNjEyNDczOTMxMDcxNDc1NzEyIiwib2xkZXN0X2lkIjoiMTYxMDI4MDYzNDU1OTM2NTEyMSIsInJlc3VsdF9jb3VudCI6NX19
+  recorded_at: Mon, 09 Jan 2023 16:43:01 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/2/tweets/search/recent?query=from:bereadyescambia&tweet.fields=created_at
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Authorization
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 09 Jan 2023 16:43:01 UTC
+      Perf:
+      - '7626143928'
+      Server:
+      - tsa_p
+      Set-Cookie:
+      - guest_id=v1%3A167328258125635384; Max-Age=63072000; Expires=Wed, 08 Jan 2025
+        16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167328258125635384; Max-Age=63072000; Expires=Wed, 08 Jan
+        2025 16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167328258125635384; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_Zjk/+RNVTzU7Jn5xx9IRkQ=="; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      Api-Version:
+      - '2.60'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache, no-store, max-age=0
+      Content-Length:
+      - '817'
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Transaction-Id:
+      - e44aef071ea1e8ee
+      X-Xss-Protection:
+      - '0'
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Reset:
+      - '1673283435'
+      Content-Disposition:
+      - attachment; filename=json.json
+      X-Content-Type-Options:
+      - nosniff
+      X-Rate-Limit-Remaining:
+      - '438'
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Response-Time:
+      - '88'
+      X-Connection-Hash:
+      - afa6590c7929fb89e9c6c08c042c01729b4ba2b627b639e944011879c603a0e7
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjE2MTI0NzM5MzEwNzE0NzU3MTIiLCJ0ZXh0IjoiUlQgQE5XU01vYmlsZTogVG9kYXkgd2lsbCBiZSBkcnkgd2l0aCBuZWFyIHNlYXNvbmFibGUgdGVtcGVyYXR1cmVzLiAgSGlnaHMgd2lsbCBtb3N0bHkgcmFuZ2UgZnJvbSB0aGUgdXBwZXIgNTBzIHdlbGwgaW5sYW5kIHRvIHRoZSBtaWQgNjBz4oCmIiwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDlUMTU6Mzg6MzguMDAwWiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMjQ3MzkzMTA3MTQ3NTcxMiJdfSx7ImlkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsInRleHQiOiJcdUQ4M0RcdURDRjIgQXJlIHlvdSBzaWduZWQgdXAgZm9yIGVtZXJnZW5jeSBhbGVydHMgZm9yIEVzY2FtYmlhIENvdW50eT8gQXJlIHlvdSBzaWduZWQgdXAgdG8gcmVjZWl2ZSB1cGRhdGVzIGR1cmluZyBlbWVyZ2VuY2llcz8gXG5cblx1RDgzRFx1RENFMiBHZXQgc2lnbmVkIHVwIHRvZGF5IGFuZCBiZSByZWFkeSEgXG5cblx1RDgzRFx1REM0OSBWaXNpdCBodHRwczovL3QuY28vY0hScGNBTWNKNyB0byBzaWduIHVwIGZvciBhbnkgRXNjYW1iaWEgQ291bnR5IGVtZXJnZW5jeSBub3RpZmljYXRpb25zLlxuXG4jYmVyZWFkeWVzY2FtYmlhIGh0dHBzOi8vdC5jby9GNVRZSTNYNEJwIiwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDVUMjA6NDk6MzkuMDAwWiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMTEwMjY1MTE2MDA4NDQ4MSJdfSx7ImlkIjoiMTYxMDYyMjA1MjczMzcwMjE0NiIsInRleHQiOiJSVCBAaWVtYm90X21vYjogTU9CIHVwZGF0ZXMgVG9ybmFkbyBXYXRjaCAoY2FuY2VscyA0IGFyZWFzLCBjb250aW51ZXMgMTIgYXJlYXMpIHRpbGwgSmFuIDQsIDExOjAwIEFNIENTVCBodHRwczovL3QuY28vT3JiMXh4eXlDbCBodHRwczovL3Qu4oCmIiwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDRUMTI6NTk6NTUuMDAwWiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDYyMjA1MjczMzcwMjE0NiJdfSx7ImlkIjoiMTYxMDM5NzE5ODM3Nzk3MTcxMiIsInRleHQiOiJSVCBATXlGRE9UX05XRkw6IEVTQyAtIFRoZSBGbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24gd2lsbCBiZWdpbiB3b3JrIFR1ZXNkYXksIEphbnVhcnkgMyBvbiBhICQyLjYgbWlsbGlvbiBwcm9qZWN0IHRvIHJlc3VyZmFjZSBO4oCmIiwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDNUMjI6MDY6MjYuMDAwWiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDM5NzE5ODM3Nzk3MTcxMiJdfSx7ImlkIjoiMTYxMDI4MDYzNDU1OTM2NTEyMSIsInRleHQiOiJSVCBATldTTW9iaWxlOiBUaGVyZSBpcyBhbiAqRW5oYW5jZWQgUmlzayBvZiBTZXZlcmUgV2VhdGhlciogb3ZlciBtb3N0IG9mIHRoZSBhcmVhIHRocm91Z2ggdG9uaWdodCwgd2l0aCBtdWx0aXBsZSByb3VuZHMgb2Ygc2V2ZXJlIHdlYXRoZXLigKYiLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wM1QxNDoyMzoxNS4wMDBaIiwiZWRpdF9oaXN0b3J5X3R3ZWV0X2lkcyI6WyIxNjEwMjgwNjM0NTU5MzY1MTIxIl19XSwibWV0YSI6eyJuZXdlc3RfaWQiOiIxNjEyNDczOTMxMDcxNDc1NzEyIiwib2xkZXN0X2lkIjoiMTYxMDI4MDYzNDU1OTM2NTEyMSIsInJlc3VsdF9jb3VudCI6NX19
+  recorded_at: Mon, 09 Jan 2023 16:43:01 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/2/tweets/search/recent?query=from:bereadyescambia&tweet.fields=created_at
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Authorization
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 09 Jan 2023 16:43:01 UTC
+      Perf:
+      - '7626143928'
+      Server:
+      - tsa_p
+      Set-Cookie:
+      - guest_id=v1%3A167328258156669510; Max-Age=63072000; Expires=Wed, 08 Jan 2025
+        16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167328258156669510; Max-Age=63072000; Expires=Wed, 08 Jan
+        2025 16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167328258156669510; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_Txd3yb1D0vHJeelecM1BMw=="; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 16:43:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      Api-Version:
+      - '2.60'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache, no-store, max-age=0
+      Content-Length:
+      - '818'
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Transaction-Id:
+      - d0fbc0e97e8765a2
+      X-Xss-Protection:
+      - '0'
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Reset:
+      - '1673283435'
+      Content-Disposition:
+      - attachment; filename=json.json
+      X-Content-Type-Options:
+      - nosniff
+      X-Rate-Limit-Remaining:
+      - '437'
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Response-Time:
+      - '99'
+      X-Connection-Hash:
+      - 53c2f8affab0423f7ee08d9874ddb62a88615f793d9365587aab9a36c178f35f
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJ0ZXh0IjoiUlQgQE5XU01vYmlsZTogVG9kYXkgd2lsbCBiZSBkcnkgd2l0aCBuZWFyIHNlYXNvbmFibGUgdGVtcGVyYXR1cmVzLiAgSGlnaHMgd2lsbCBtb3N0bHkgcmFuZ2UgZnJvbSB0aGUgdXBwZXIgNTBzIHdlbGwgaW5sYW5kIHRvIHRoZSBtaWQgNjBz4oCmIiwiaWQiOiIxNjEyNDczOTMxMDcxNDc1NzEyIiwiZWRpdF9oaXN0b3J5X3R3ZWV0X2lkcyI6WyIxNjEyNDczOTMxMDcxNDc1NzEyIl0sImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA5VDE1OjM4OjM4LjAwMFoifSx7InRleHQiOiJcdUQ4M0RcdURDRjIgQXJlIHlvdSBzaWduZWQgdXAgZm9yIGVtZXJnZW5jeSBhbGVydHMgZm9yIEVzY2FtYmlhIENvdW50eT8gQXJlIHlvdSBzaWduZWQgdXAgdG8gcmVjZWl2ZSB1cGRhdGVzIGR1cmluZyBlbWVyZ2VuY2llcz8gXG5cblx1RDgzRFx1RENFMiBHZXQgc2lnbmVkIHVwIHRvZGF5IGFuZCBiZSByZWFkeSEgXG5cblx1RDgzRFx1REM0OSBWaXNpdCBodHRwczovL3QuY28vY0hScGNBTWNKNyB0byBzaWduIHVwIGZvciBhbnkgRXNjYW1iaWEgQ291bnR5IGVtZXJnZW5jeSBub3RpZmljYXRpb25zLlxuXG4jYmVyZWFkeWVzY2FtYmlhIGh0dHBzOi8vdC5jby9GNVRZSTNYNEJwIiwiaWQiOiIxNjExMTAyNjUxMTYwMDg0NDgxIiwiZWRpdF9oaXN0b3J5X3R3ZWV0X2lkcyI6WyIxNjExMTAyNjUxMTYwMDg0NDgxIl0sImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA1VDIwOjQ5OjM5LjAwMFoifSx7InRleHQiOiJSVCBAaWVtYm90X21vYjogTU9CIHVwZGF0ZXMgVG9ybmFkbyBXYXRjaCAoY2FuY2VscyA0IGFyZWFzLCBjb250aW51ZXMgMTIgYXJlYXMpIHRpbGwgSmFuIDQsIDExOjAwIEFNIENTVCBodHRwczovL3QuY28vT3JiMXh4eXlDbCBodHRwczovL3Qu4oCmIiwiaWQiOiIxNjEwNjIyMDUyNzMzNzAyMTQ2IiwiZWRpdF9oaXN0b3J5X3R3ZWV0X2lkcyI6WyIxNjEwNjIyMDUyNzMzNzAyMTQ2Il0sImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA0VDEyOjU5OjU1LjAwMFoifSx7InRleHQiOiJSVCBATXlGRE9UX05XRkw6IEVTQyAtIFRoZSBGbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24gd2lsbCBiZWdpbiB3b3JrIFR1ZXNkYXksIEphbnVhcnkgMyBvbiBhICQyLjYgbWlsbGlvbiBwcm9qZWN0IHRvIHJlc3VyZmFjZSBO4oCmIiwiaWQiOiIxNjEwMzk3MTk4Mzc3OTcxNzEyIiwiZWRpdF9oaXN0b3J5X3R3ZWV0X2lkcyI6WyIxNjEwMzk3MTk4Mzc3OTcxNzEyIl0sImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTAzVDIyOjA2OjI2LjAwMFoifSx7InRleHQiOiJSVCBATldTTW9iaWxlOiBUaGVyZSBpcyBhbiAqRW5oYW5jZWQgUmlzayBvZiBTZXZlcmUgV2VhdGhlciogb3ZlciBtb3N0IG9mIHRoZSBhcmVhIHRocm91Z2ggdG9uaWdodCwgd2l0aCBtdWx0aXBsZSByb3VuZHMgb2Ygc2V2ZXJlIHdlYXRoZXLigKYiLCJpZCI6IjE2MTAyODA2MzQ1NTkzNjUxMjEiLCJlZGl0X2hpc3RvcnlfdHdlZXRfaWRzIjpbIjE2MTAyODA2MzQ1NTkzNjUxMjEiXSwiY3JlYXRlZF9hdCI6IjIwMjMtMDEtMDNUMTQ6MjM6MTUuMDAwWiJ9XSwibWV0YSI6eyJuZXdlc3RfaWQiOiIxNjEyNDczOTMxMDcxNDc1NzEyIiwib2xkZXN0X2lkIjoiMTYxMDI4MDYzNDU1OTM2NTEyMSIsInJlc3VsdF9jb3VudCI6NX19
+  recorded_at: Mon, 09 Jan 2023 16:43:01 GMT
 recorded_with: VCR 6.1.0
