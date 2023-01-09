@@ -1,10 +1,12 @@
 class UserNotifierMailer < ApplicationMailer
   default from: ENV['west_fl_wx_email']
 
-  # send a signup email to the user, pass in the user object that contains the user's email address
-  def send_signup_email(user)
+  # send an alert email to the user, pass in the user object that contains the user's email address
+  def send_alerts(user, alerts, tweets)
     @user = user
+    @alerts = alerts
+    @tweets = tweets
     mail(to: @user.email,
-         subject: 'Thanks for signing up for our amazing app')
+         subject: "#{@user.name}, here are your emergency alerts")
   end
 end

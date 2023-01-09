@@ -18,8 +18,10 @@ class UsersController < ApplicationController
     # Create the user from params
     @user = User.new(user_params)
     if @user.save
-      # Deliver the signup email
-      UserNotifierMailer.send_signup_email(@user).deliver_now
+      # Deliver the alerts email
+      alerts = NwsFacade.escambia_alerts
+      tweets = [TwitterFacade.fl511_alerts, TwitterFacade.bereadyescambia_alerts]
+      UserNotifierMailer.send_alerts(@user, alerts, tweets).deliver_now
       redirect_to(@user, notice: 'User created')
     else
       render action: 'new'
@@ -49,6 +51,6 @@ class UsersController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def user_params
-    params.require(:user).permit(:name, :email, :login)
+    params.require(:user).permit(:name, :email)
   end
 end

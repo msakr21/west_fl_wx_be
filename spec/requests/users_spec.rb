@@ -19,8 +19,7 @@ RSpec.describe '/users', type: :request do
   let(:valid_attributes) do
     {
       name: Faker::Name.first_name,
-      email: Faker::Internet.email,
-      login: Faker::Internet.password
+      email: Faker::Internet.email
     }
   end
 
