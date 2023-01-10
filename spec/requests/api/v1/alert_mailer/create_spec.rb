@@ -41,6 +41,9 @@ RSpec.describe 'Create Alert Mailer API' do
             post api_v1_alert_mailer_url,
                 params: { user: valid_attributes }, headers: valid_headers, as: :json
           end.to change(User, :count).by(1)
+
+          expect(User.last.name).to eq(valid_attributes[:name])
+          expect(User.last.email).to eq(valid_attributes[:email])
         end
       end
     end
