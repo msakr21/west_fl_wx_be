@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Here are your alerts, <%= @user.name %>!</h1>
+    <ul>
+      <% @alerts.each do |alert| %>
+         <li><%= alert %></li>
+      <% end %>
+    </ul>
+    <b><%= '@FL511 Alerts' %></b>
+    <ul>
+      <% @tweets.first.each do |tweet| %>
+         <li><%= tweet.text %> <em><%= tweet.created_at %></em></li> 
+      <% end %>
+    </ul>
+    <b><%= '@BeReadyEscambia Alerts' %></b>
+    <ul>
+      <% @tweets.last.each do |tweet| %>
+         <li><%= tweet.text %> <em><%= tweet.created_at %></em></li>
+      <% end %>
+    </ul>
+  </body>
+</html>

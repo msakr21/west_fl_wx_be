@@ -1,0 +1,230 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.weather.gov/alerts?severity=Severe,Extreme&status=actual&zone=FLZ202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.20.1
+      Content-Type:
+      - application/geo+json
+      Last-Modified:
+      - Tue, 03 Jan 2023 00:00:00 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Correlation-Id, X-Request-Id, X-Server-Id
+      X-Request-Id:
+      - cfd5cc92-ff24-40f1-9d7d-81f89c990d6e
+      X-Correlation-Id:
+      - 1ba88c08
+      X-Server-Id:
+      - vm-lnx-nids-apiapp6.ncep.noaa.gov
+      Vary:
+      - Accept,Feature-Flags,Accept-Language
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=29, s-maxage=30
+      Expires:
+      - Mon, 09 Jan 2023 17:06:02 GMT
+      Date:
+      - Mon, 09 Jan 2023 17:05:33 GMT
+      Content-Length:
+      - '233'
+      Connection:
+      - keep-alive
+      X-Edge-Request-Id:
+      - 71b10595
+      Strict-Transport-Security:
+      - max-age=31536000 ; includeSubDomains ; preload
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "@context": {
+                "@version": "1.1"
+            },
+            "type": "FeatureCollection",
+            "features": [],
+            "title": "watches, warnings, and advisories for Escambia Coastal (FLZ202) FL",
+            "updated": "2023-01-03T00:00:00+00:00"
+        }
+  recorded_at: Mon, 09 Jan 2023 17:05:33 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/2/tweets/search/recent?max_results=10&query=from:fl511_panhandl%20Escambia&tweet.fields=created_at
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Authorization
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 09 Jan 2023 17:05:33 UTC
+      Perf:
+      - '7626143928'
+      Server:
+      - tsa_p
+      Set-Cookie:
+      - guest_id=v1%3A167328393369561678; Max-Age=63072000; Expires=Wed, 08 Jan 2025
+        17:05:33 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167328393369561678; Max-Age=63072000; Expires=Wed, 08 Jan
+        2025 17:05:33 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167328393369561678; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 17:05:33 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_/dEZ18ESN6YNPjg0BvF9Og=="; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 17:05:33 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      Api-Version:
+      - '2.60'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache, no-store, max-age=0
+      Content-Length:
+      - '726'
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Transaction-Id:
+      - b096302de1e1c517
+      X-Xss-Protection:
+      - '0'
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Reset:
+      - '1673284833'
+      Content-Disposition:
+      - attachment; filename=json.json
+      X-Content-Type-Options:
+      - nosniff
+      X-Rate-Limit-Remaining:
+      - '449'
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Response-Time:
+      - '91'
+      X-Connection-Hash:
+      - e29ac265037be815ace93b9310ad3f7b1c33a061e78c3ee4a4128aff03381115
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"text":"Cleared: Object on roadway in Escambia County on
+        I-10 East, ramp to Exit 5 (US-90 Alt/Nine Mile Rd). Ramp blocked. Last updated
+        at 06:06 PM.","id":"1612235741807140864","edit_history_tweet_ids":["1612235741807140864"],"created_at":"2023-01-08T23:52:09.000Z"},{"text":"Object
+        on roadway in Escambia County on I-10 East, ramp to Exit 5 (US-90 Alt/Nine
+        Mile Rd). Ramp blocked. Last updated at 06:06 PM. https://t.co/2yYJbcgn8j","id":"1612224372202430468","edit_history_tweet_ids":["1612224372202430468"],"created_at":"2023-01-08T23:06:58.000Z"},{"text":"Cleared:
+        Object on roadway in Escambia County on I-10 East, at MM 11. Right lane blocked.
+        Last updated at 02:32 PM.","id":"1612176911677132800","edit_history_tweet_ids":["1612176911677132800"],"created_at":"2023-01-08T19:58:23.000Z"},{"text":"Updated:
+        Object on roadway in Escambia County on I-10 East, at MM 11. Right lane blocked.
+        Last updated at 02:32 PM. https://t.co/gt0hax8NCf","id":"1612170435793416193","edit_history_tweet_ids":["1612170435793416193"],"created_at":"2023-01-08T19:32:39.000Z"},{"text":"Object
+        on roadway in Escambia County on I-10 East, at MM 11. Center lane blocked.
+        Last updated at 02:17 PM. https://t.co/gt0hax8NCf","id":"1612166789320040448","edit_history_tweet_ids":["1612166789320040448"],"created_at":"2023-01-08T19:18:09.000Z"},{"text":"Cleared:
+        Disabled truck in Escambia County on US-29 South, at I-10. Center lane blocked.
+        Last updated at 07:13 PM.","id":"1611882874143408128","edit_history_tweet_ids":["1611882874143408128"],"created_at":"2023-01-08T00:29:59.000Z"},{"text":"Updated:
+        Disabled truck in Escambia County on US-29 South, at I-10. Center lane blocked.
+        Last updated at 07:13 PM. https://t.co/Af5u7mSsjG","id":"1611878713624514562","edit_history_tweet_ids":["1611878713624514562"],"created_at":"2023-01-08T00:13:27.000Z"},{"text":"Cleared:
+        Vehicle on fire in Escambia County on I-10 East, at MM 2. Right lane blocked.
+        Last updated at 06:29 PM.","id":"1611871467918209024","edit_history_tweet_ids":["1611871467918209024"],"created_at":"2023-01-07T23:44:39.000Z"},{"text":"Updated:
+        Vehicle on fire in Escambia County on I-10 East, at MM 2. Right lane blocked.
+        Last updated at 06:29 PM. https://t.co/UgzGaWVBB1","id":"1611867839484530688","edit_history_tweet_ids":["1611867839484530688"],"created_at":"2023-01-07T23:30:14.000Z"},{"text":"Updated:
+        Disabled vehicle in Escambia County on US-29 South, at I-10. Center lane blocked.
+        Last updated at 06:11 PM. https://t.co/Af5u7mSsjG","id":"1611863172344074240","edit_history_tweet_ids":["1611863172344074240"],"created_at":"2023-01-07T23:11:41.000Z"}],"meta":{"newest_id":"1612235741807140864","oldest_id":"1611863172344074240","result_count":10,"next_token":"b26v89c19zqg8o3fqk3zrxhjvnjice4t8wq8i0xgzupod"}}'
+  recorded_at: Mon, 09 Jan 2023 17:05:33 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/2/tweets/search/recent?query=from:bereadyescambia&tweet.fields=created_at
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Authorization
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 09 Jan 2023 17:05:34 UTC
+      Perf:
+      - '7626143928'
+      Server:
+      - tsa_p
+      Set-Cookie:
+      - guest_id=v1%3A167328393400085279; Max-Age=63072000; Expires=Wed, 08 Jan 2025
+        17:05:34 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A167328393400085279; Max-Age=63072000; Expires=Wed, 08 Jan
+        2025 17:05:34 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_marketing=v1%3A167328393400085279; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 17:05:34 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_bsOSj0Fa0bXqevEcUbpGzA=="; Max-Age=63072000; Expires=Wed,
+        08 Jan 2025 17:05:34 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      Api-Version:
+      - '2.60'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache, no-store, max-age=0
+      Content-Length:
+      - '820'
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Transaction-Id:
+      - e6390330dcb45059
+      X-Xss-Protection:
+      - '0'
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Reset:
+      - '1673284833'
+      Content-Disposition:
+      - attachment; filename=json.json
+      X-Content-Type-Options:
+      - nosniff
+      X-Rate-Limit-Remaining:
+      - '448'
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Response-Time:
+      - '93'
+      X-Connection-Hash:
+      - e0cb6f861683bb754a3714f3b39bfa686fb682195b6979b3b6f733dfec8ba02a
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjE2MTI0NzM5MzEwNzE0NzU3MTIiLCJjcmVhdGVkX2F0IjoiMjAyMy0wMS0wOVQxNTozODozOC4wMDBaIiwidGV4dCI6IlJUIEBOV1NNb2JpbGU6IFRvZGF5IHdpbGwgYmUgZHJ5IHdpdGggbmVhciBzZWFzb25hYmxlIHRlbXBlcmF0dXJlcy4gIEhpZ2hzIHdpbGwgbW9zdGx5IHJhbmdlIGZyb20gdGhlIHVwcGVyIDUwcyB3ZWxsIGlubGFuZCB0byB0aGUgbWlkIDYwc+KApiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMjQ3MzkzMTA3MTQ3NTcxMiJdfSx7ImlkIjoiMTYxMTEwMjY1MTE2MDA4NDQ4MSIsImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA1VDIwOjQ5OjM5LjAwMFoiLCJ0ZXh0IjoiXHVEODNEXHVEQ0YyIEFyZSB5b3Ugc2lnbmVkIHVwIGZvciBlbWVyZ2VuY3kgYWxlcnRzIGZvciBFc2NhbWJpYSBDb3VudHk/IEFyZSB5b3Ugc2lnbmVkIHVwIHRvIHJlY2VpdmUgdXBkYXRlcyBkdXJpbmcgZW1lcmdlbmNpZXM/IFxuXG5cdUQ4M0RcdURDRTIgR2V0IHNpZ25lZCB1cCB0b2RheSBhbmQgYmUgcmVhZHkhIFxuXG5cdUQ4M0RcdURDNDkgVmlzaXQgaHR0cHM6Ly90LmNvL2NIUnBjQU1jSjcgdG8gc2lnbiB1cCBmb3IgYW55IEVzY2FtYmlhIENvdW50eSBlbWVyZ2VuY3kgbm90aWZpY2F0aW9ucy5cblxuI2JlcmVhZHllc2NhbWJpYSBodHRwczovL3QuY28vRjVUWUkzWDRCcCIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMTEwMjY1MTE2MDA4NDQ4MSJdfSx7ImlkIjoiMTYxMDYyMjA1MjczMzcwMjE0NiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTA0VDEyOjU5OjU1LjAwMFoiLCJ0ZXh0IjoiUlQgQGllbWJvdF9tb2I6IE1PQiB1cGRhdGVzIFRvcm5hZG8gV2F0Y2ggKGNhbmNlbHMgNCBhcmVhcywgY29udGludWVzIDEyIGFyZWFzKSB0aWxsIEphbiA0LCAxMTowMCBBTSBDU1QgaHR0cHM6Ly90LmNvL09yYjF4eHl5Q2wgaHR0cHM6Ly90LuKApiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDYyMjA1MjczMzcwMjE0NiJdfSx7ImlkIjoiMTYxMDM5NzE5ODM3Nzk3MTcxMiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTAzVDIyOjA2OjI2LjAwMFoiLCJ0ZXh0IjoiUlQgQE15RkRPVF9OV0ZMOiBFU0MgLSBUaGUgRmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uIHdpbGwgYmVnaW4gd29yayBUdWVzZGF5LCBKYW51YXJ5IDMgb24gYSAkMi42IG1pbGxpb24gcHJvamVjdCB0byByZXN1cmZhY2UgTuKApiIsImVkaXRfaGlzdG9yeV90d2VldF9pZHMiOlsiMTYxMDM5NzE5ODM3Nzk3MTcxMiJdfSx7ImlkIjoiMTYxMDI4MDYzNDU1OTM2NTEyMSIsImNyZWF0ZWRfYXQiOiIyMDIzLTAxLTAzVDE0OjIzOjE1LjAwMFoiLCJ0ZXh0IjoiUlQgQE5XU01vYmlsZTogVGhlcmUgaXMgYW4gKkVuaGFuY2VkIFJpc2sgb2YgU2V2ZXJlIFdlYXRoZXIqIG92ZXIgbW9zdCBvZiB0aGUgYXJlYSB0aHJvdWdoIHRvbmlnaHQsIHdpdGggbXVsdGlwbGUgcm91bmRzIG9mIHNldmVyZSB3ZWF0aGVy4oCmIiwiZWRpdF9oaXN0b3J5X3R3ZWV0X2lkcyI6WyIxNjEwMjgwNjM0NTU5MzY1MTIxIl19XSwibWV0YSI6eyJuZXdlc3RfaWQiOiIxNjEyNDczOTMxMDcxNDc1NzEyIiwib2xkZXN0X2lkIjoiMTYxMDI4MDYzNDU1OTM2NTEyMSIsInJlc3VsdF9jb3VudCI6NX19
+  recorded_at: Mon, 09 Jan 2023 17:05:34 GMT
+recorded_with: VCR 6.1.0
