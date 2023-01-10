@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Api::V1::UsersController < ApplicationController
   before_action :set_user, only: [:show]
 
   # GET /users
@@ -23,7 +23,7 @@ class UsersController < ApplicationController
     alerts = NwsFacade.escambia_alerts
     tweets = [TwitterFacade.fl511_alerts, TwitterFacade.bereadyescambia_alerts]
     UserNotifierMailer.send_alerts(@user, alerts, tweets).deliver_now
-    redirect_to(@user, notice: 'User created')
+    redirect_to(api_v1_users_url(@user), notice: 'User created')
   end
 
   private
