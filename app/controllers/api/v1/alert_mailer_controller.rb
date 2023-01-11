@@ -1,6 +1,7 @@
 class Api::V1::AlertMailerController < ApplicationController
   def create
     @alerts = NwsFacade.escambia_alerts
+    CheckNwsJob.
     if @alerts.blank?
       render json: { data: 'No Current Alerts' }
     else
