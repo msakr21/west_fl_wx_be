@@ -60,13 +60,18 @@ West FL WX is a Rails web application and e-mail service.
 ## Roadmap
 
 MVP
-* [ ] API call to NWS API for Weather Alerts
-* [ ] API call to Twitter for #BeReadyEscambia and #fl511_panhandl
-* [ ] Weather Alert endpoint
+* [x] Implement API call to NWS API for Weather Alerts
+* [x] Implement API call to Twitter for #BeReadyEscambia and #fl511_panhandl 
+* [x] Set up SendGrid for use with mailer functionality
+* [x] Implement mailer functionality
+* [x] Add aggregated data from NWS and Twitter API calls to the mailer functionality
+* [x] Set up single end-point for FE to make a request
+* [ ] Deploy to Heroku
 
 Stretch Goals
 * [ ] Google Maps call for traffic
 * [ ] Background Workers to run check for NWS API call
+* [ ] Background Workers to follow up with Twitter call and mail sending based on NWS check.
 
 See the [open issues](https://github.com/Consultancy-2208/west_fl_wx_be/issues) for a full list of proposed features (and known issues).
 
