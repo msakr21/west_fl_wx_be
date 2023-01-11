@@ -40,7 +40,8 @@ RSpec.describe 'Create Alert Mailer API' do
       stub_request(:get, 'https://api.weather.gov/alerts?zone=FLZ202&status=actual&severity=Severe,Extreme').to_return(
         status: 200, body: json_response
       )
-      post api_v1_alert_mailer_path
+      @user = create(:user)
+      post api_v1_alert_mailer_path({ name: @user.name, email: @user.email })
     end
 
     let!(:alerts) { JSON.parse(response.body, symbolize_names: true) }
