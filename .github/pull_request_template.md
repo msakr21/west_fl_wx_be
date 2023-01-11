@@ -2,10 +2,11 @@ Type of change
 
     [] New feature
     [] Bug Fix
+    [] Refactor
 
 Implements/Fixes:
 
-    description closes #
+    description closes issue #
 
 Checklist:
 
