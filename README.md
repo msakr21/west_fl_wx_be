@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Consultancy-2208/west_fl_wx_be">
+  <a href="https://github.com/Consultancy-2208">
     <img src="lib/assets/consultancy.jpeg" alt="Logo" width="200" height="200">
   </a>
 
@@ -17,42 +17,86 @@
   <h3 align="center">
     Get the info you need in severe weather!
     <br />
-    <a href="https://github.com/Consultancy-2208/west_fl_wx_be"><strong>View Demo</strong></a>
   </h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</li>
-    <li><a href="#license">License</a></li></a>
-  </ol>
-</details>
+<h3>
+  <details>
+    <summary>Table of Contents</summary>
+    <ol>
+      <li>
+        <a href="#about-the-project">About The Project</a>
+        <ul>
+          <li><a href="#built-with">Built With</a></li>
+          <li><a href="#database-schema">Database Schema</a></li>
+        </ul>
+      </li>
+      <li><a href="#getting-started">Getting Started</a></li>
+      <li><a href="#endpoints">Endpoints</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#acknowledgments">Acknowledgments</li>
+      <li><a href="#license">License</a></li></a>
+    </ol>
+  </details>
+</h3>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## About The Project
 
 Getting reliable information in an emergency is critical to your safety. West FL WX is a service that seeks to collect the most up-to-date weather forecast, road conditions, and emergency information from your local leaders. This information will be sent to you via e-mail so it can be saved on your local device in the event of power or internet outages. This will ensure you always have the information you need in an emergency.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Built With -->
 
 ### Built With
 
 West FL WX is a Rails web application and e-mail service.
 
 <img src="lib/assets/tech-stack.png" alt="Tech-Stack">
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Database Schema -->
+### Database Schema
+
+The West FL WX application utilizes a one-to-many relationship to organize the user's essential areas of preparation.
+
+<img src="lib/assets/database-schema.png" alt="Database-Schema">
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+West FL WX is deployed on Heroku utilizing two applications. The front-end application allows the user to login using Google OAuth, interact with the interface, and holds the database of user information. The back-end application handles the mailer and API calls.
+
+To start, visit the link below and login or register.
+
+* <a href="https://calm-peak-36563.herokuapp.com/">https://calm-peak-36563.herokuapp.com/</a><br>
+
+The back-end application is hosted separately at the link below, although it offers no end-user interactions.
+
+* <a href="https://stormy-harbor-06090.herokuapp.com/">https://stormy-harbor-06090.herokuapp.com/</a><br>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Endpoints -->
+
+## Endpoints
+
+The backend application ties all functionality into a single endpoint request. To access, send a `POST` request to `/alert_mailer` with params consisting of a name and email.
+
+An example request would be: 
+
+* `https://stormy-harbor-06090.herokuapp.com/api/v1/alert_mailer?email=<your_email>&name=<your_name>`
+
+An example response would be:
+
+ * `{ data: 'No Current Alerts' }` or `{ data: 'Current Alerts in Your Area' }`<br> The user would also be sent an email consisting of current NWS alerts of severe or higher and tweets from relevant local government agencies regarding road closures and other emergency events.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -66,27 +110,16 @@ MVP
 * [x] Implement mailer functionality
 * [x] Add aggregated data from NWS and Twitter API calls to the mailer functionality
 * [x] Set up single end-point for FE to make a request
-* [ ] Deploy to Heroku
+* [x] Deploy to Heroku
 
 Stretch Goals
 * [ ] Google Maps call for traffic
 * [ ] Background Workers to run check for NWS API call
 * [ ] Background Workers to follow up with Twitter call and mail sending based on NWS check.
 
-See the [open issues](https://github.com/Consultancy-2208/west_fl_wx_be/issues) for a full list of proposed features (and known issues).
+See the open [issues](https://github.com/Consultancy-2208/west_fl_wx_be/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-TBD (heroku link here)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
