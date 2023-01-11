@@ -4,10 +4,8 @@ class Api::V1::AlertMailerController < ApplicationController
     if @alerts.blank?
       render json: { data: 'No Current Alerts' }
     else
-      # Create the user from params
       @user = User.find_or_create_by(user_params)
 
-      # Deliver the alerts email
       alerts = NwsFacade.escambia_alerts
       tweets = [TwitterFacade.fl511_alerts, TwitterFacade.bereadyescambia_alerts]
       UserNotifierMailer.send_alerts(@user, alerts, tweets).deliver_now
@@ -17,7 +15,6 @@ class Api::V1::AlertMailerController < ApplicationController
 
   private
 
-  # Only allow a trusted parameter "white list" through.
   def user_params
     params.permit(:name, :email)
   end
