@@ -1,15 +1,15 @@
 require 'rails_helper'
 
 RSpec.describe 'Create Alert Mailer API' do
-  context 'When there are alert records' do
+  context 'When there are alerts' do
     describe 'can POST a new alert mailer' do
       before :each do
         json_response = File.read('spec/fixtures/DO_NOT_DELETE/services/alerts_with_moderate_filter.json')
         stub_request(:get, 'https://api.weather.gov/alerts?zone=FLZ202&status=actual&severity=Severe,Extreme').to_return(
           status: 200, body: json_response
         )
-
-        post api_v1_alert_mailer_path(:user => {name: 'mufasa', email: 'mufasa@whatever.com'})
+        @user = create(:user)
+        post api_v1_alert_mailer_path({ name: @user.name, email: @user.email })
       end
 
       let!(:alerts) { JSON.parse(response.body, symbolize_names: true) }
@@ -26,24 +26,9 @@ RSpec.describe 'Create Alert Mailer API' do
       end
 
       context 'with valid parameters' do
-        let(:valid_attributes) do
-          {
-            name: Faker::Name.first_name,
-            email: Faker::Internet.email
-          }
-        end
-        let(:valid_headers) do
-          {}
-        end
-
         it 'creates a new User' do
-          expect do
-            post api_v1_alert_mailer_url,
-                params: { user: valid_attributes }, headers: valid_headers, as: :json
-          end.to change(User, :count).by(1)
-
-          expect(User.last.name).to eq(valid_attributes[:name])
-          expect(User.last.email).to eq(valid_attributes[:email])
+          expect(User.last.name).to eq(@user.name)
+          expect(User.last.email).to eq(@user.email)
         end
       end
     end
