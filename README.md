@@ -28,12 +28,19 @@
       <li>
         <a href="#about-the-project">About The Project</a>
         <ul>
+          <li><a href="#heroku-information">Heroku Information</a></li>
           <li><a href="#built-with">Built With</a></li>
           <li><a href="#database-schema">Database Schema</a></li>
         </ul>
       </li>
-      <li><a href="#getting-started">Getting Started</a></li>
-      <li><a href="#endpoints">Endpoints</a></li>
+      <li>
+        <a href="#getting-started">Getting Started</a>
+        <ul>
+            <li><a href="#repositories">Repositories</a></li>
+            <li><a href="#back-end-repository-installation">Back-End Repository Installation</a></li>
+            <li><a href="#endpoints">Endpoints</a></li>
+        </ul>
+      </li>
       <li><a href="#roadmap">Roadmap</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a href="#acknowledgments">Acknowledgments</li>
@@ -43,15 +50,28 @@
 </h3>
 
 <!-- ABOUT THE PROJECT -->
-
 ## About The Project
+
+![Product Demo](lib/assets/demo.gif)
 
 Getting reliable information in an emergency is critical to your safety. West FL WX is a service that seeks to collect the most up-to-date weather forecast, road conditions, and emergency information from your local leaders. This information will be sent to you via e-mail so it can be saved on your local device in the event of power or internet outages. This will ensure you always have the information you need in an emergency.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- Built With -->
+<!-- Heroku Information -->
+### Heroku Information
 
+<b>To start, visit the link below and login or register:</b>
+
+* <a href="https://calm-peak-36563.herokuapp.com/">https://calm-peak-36563.herokuapp.com/</a><br>
+
+<b>The back-end application is hosted separately at the link below, although it offers no end-user interactions:</b>
+
+* <a href="https://stormy-harbor-06090.herokuapp.com/">https://stormy-harbor-06090.herokuapp.com/</a><br>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Built With -->
 ### Built With
 
 West FL WX is a Rails web application and e-mail service.
@@ -74,29 +94,40 @@ The West FL WX application utilizes a one-to-many relationship to organize the u
 
 West FL WX is deployed on Heroku utilizing two applications. The front-end application allows the user to login using Google OAuth, interact with the interface, and holds the database of user information. The back-end application handles the mailer and API calls.
 
-To start, visit the link below and login or register.
+<!-- Repositories -->
+### Repositories
 
-* <a href="https://calm-peak-36563.herokuapp.com/">https://calm-peak-36563.herokuapp.com/</a><br>
+* <b>Front-End:</b> https://github.com/Consultancy-2208/west_fl_wx_fe <br />
+* <b>Back-End:</b> https://github.com/Consultancy-2208/west_fl_wx_be <br />
 
-The back-end application is hosted separately at the link below, although it offers no end-user interactions.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-* <a href="https://stormy-harbor-06090.herokuapp.com/">https://stormy-harbor-06090.herokuapp.com/</a><br>
+<!-- Back-End Repository Installation -->
+### Back-End Repository Installation
+<b>Gem Installation</b>
+* `bundle install`
+* `bundle exec figaro install`
+
+<b>Required API keys</b>: 
+* Sign up for a <a href="https://developer.twitter.com/en/docs/authentication/oauth-2-0/bearer-tokens">Twitter bearer token</a> and set `twitter_bearer_token: <your_token>` in `application.yml` 
+* Sign up for a <a href="https://docs.sendgrid.com/">SendGrid API key</a> and set `SENDGRID_API_KEY: <your_key>` in `application.yml` 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Endpoints -->
+### Endpoints
 
-## Endpoints
+The back-end application ties all functionality into a single endpoint request. To access, send a `POST` request to `/alert_mailer` with params consisting of a name and email.
 
-The backend application ties all functionality into a single endpoint request. To access, send a `POST` request to `/alert_mailer` with params consisting of a name and email.
+<b>An example request would be:</b>
 
-An example request would be: 
+`https://stormy-harbor-06090.herokuapp.com/api/v1/alert_mailer?email=<your_email>&name=<your_name>`
 
-* `https://stormy-harbor-06090.herokuapp.com/api/v1/alert_mailer?email=<your_email>&name=<your_name>`
+<b>An example response would be:</b>
 
-An example response would be:
-
- * `{ data: 'No Current Alerts' }` or `{ data: 'Current Alerts in Your Area' }`<br> The user would also be sent an email consisting of current NWS alerts of severe or higher and tweets from relevant local government agencies regarding road closures and other emergency events.
+ `{ data: 'No Current Alerts' }` or `{ data: 'Current Alerts in Your Area' }`
+ 
+The user would also be sent an email consisting of current NWS alerts of severe or higher and tweets from relevant local government agencies regarding road closures and other emergency events.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -117,7 +148,7 @@ Stretch Goals
 * [ ] Background Workers to run check for NWS API call
 * [ ] Background Workers to follow up with Twitter call and mail sending based on NWS check.
 
-See the open [issues](https://github.com/Consultancy-2208/west_fl_wx_be/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Consultancy-2208/west_fl_wx_be/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
