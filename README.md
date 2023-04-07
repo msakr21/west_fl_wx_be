@@ -1,10 +1,3 @@
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -58,19 +51,6 @@ Getting reliable information in an emergency is critical to your safety. West FL
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- Heroku Information -->
-### Heroku Information
-
-<b>To start, visit the link below and login or register:</b>
-
-* <a href="https://calm-peak-36563.herokuapp.com/">https://calm-peak-36563.herokuapp.com/</a><br>
-
-<b>The back-end application is hosted separately at the link below, although it offers no end-user interactions:</b>
-
-* <a href="https://stormy-harbor-06090.herokuapp.com/">https://stormy-harbor-06090.herokuapp.com/</a><br>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- Built With -->
 ### Built With
 
@@ -97,8 +77,8 @@ West FL WX is deployed on Heroku utilizing two applications. The front-end appli
 <!-- Repositories -->
 ### Repositories
 
-* <b>Front-End:</b> https://github.com/Consultancy-2208/west_fl_wx_fe <br />
-* <b>Back-End:</b> https://github.com/Consultancy-2208/west_fl_wx_be <br />
+* <b>Front-End:</b> https://github.com/msakr21/west_fl_wx_fe <br />
+* <b>Back-End:</b> https://github.com/msakr21/west_fl_wx_be <br />
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
