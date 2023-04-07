@@ -21,7 +21,6 @@
       <li>
         <a href="#about-the-project">About The Project</a>
         <ul>
-          <li><a href="#heroku-information">Heroku Information</a></li>
           <li><a href="#built-with">Built With</a></li>
           <li><a href="#database-schema">Database Schema</a></li>
         </ul>
@@ -101,7 +100,7 @@ The back-end application ties all functionality into a single endpoint request. 
 
 <b>An example request would be:</b>
 
-`https://stormy-harbor-06090.herokuapp.com/api/v1/alert_mailer?email=<your_email>&name=<your_name>`
+`localhost:3000/api/v1/alert_mailer?email=<your_email>&name=<your_name>`
 
 <b>An example response would be:</b>
 
