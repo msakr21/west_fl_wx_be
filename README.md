@@ -71,7 +71,7 @@ The West FL WX application utilizes a one-to-many relationship to organize the u
 <!-- GETTING STARTED -->
 ## Getting Started
 
-West FL WX is deployed on Heroku utilizing two applications. The front-end application allows the user to login using Google OAuth, interact with the interface, and holds the database of user information. The back-end application handles the mailer and API calls.
+West FL WX was (but no longer is) deployed/hosted on Heroku utilizing two applications. The front-end application allows the user to login using Google OAuth, interact with the interface, and holds the database of user information. The back-end application handles the mailer and API calls.
 
 <!-- Repositories -->
 ### Repositories
